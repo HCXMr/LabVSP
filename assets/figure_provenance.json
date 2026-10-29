@@ -1,0 +1,717 @@
+{
+  "dataset_overview": {
+    "source_kind": "unchanged author-provided slide exported to PDF",
+    "source_slide": 4,
+    "source_pptx_sha256": "341694da690aa54c79eb6d9e7b311602d7b6946dfc7ab1c8a9b02c9d2c675156",
+    "source_pdf_sha256": "9b17099594e836aed624f45c477fced084825f32f69d65eb71ac482c110a60d9",
+    "crop_box_from_top_left_pt": [
+      593.0,
+      429.0,
+      857.0,
+      848.0
+    ],
+    "raster_render_dpi": 600,
+    "raster_dimensions_px": [
+      2200,
+      3492
+    ],
+    "photo_resolution_note": "600 dpi is the page rasterization resolution; embedded photographs retain their original detail.",
+    "color_map": "Author-designed presentation palette, independent of the label-schema visualization palette.",
+    "pdf_validation": {
+      "width_pt": 264.0,
+      "height_pt": 419.0,
+      "text_characters": 368,
+      "images": 21,
+      "min_font_pt": 7.7949999999999875,
+      "all_text_inside_page": true,
+      "minimum_text_margin_pt": 4.596271999999999
+    },
+    "visual_review": "Complete composition and enlarged a/b and c previews inspected; all seven vessels, four scene photos, two annotation rows and full rectangular legend preserved."
+  },
+  "annotation_overview": {
+    "version": "1.0.0",
+    "raster_dimensions_px": [
+      1240,
+      1780
+    ],
+    "source": "Original RGB and annotation masks, loaded from manifest paths",
+    "selection_file": "annotation_overview.json",
+    "selected_samples": 7,
+    "sample_selection_unchanged": true,
+    "color_map": "metadata/label_schema.json color_bgr reversed to RGB; instance overlay uses RGB [30,180,220]",
+    "display_only_crop": "Instance bounding box with 20 px padding; aspect-ratio-preserving pad to 232 x 190 px",
+    "overlay_alpha": 0.62,
+    "functional_masks": "Independent masks retained in source data; later masks in schema order overwrite earlier masks only in this preview.",
+    "unchanged_pixels_outside_version_line": true,
+    "changed_pixel_bbox_xyxy": [
+      27,
+      60,
+      717,
+      77
+    ],
+    "script": "tools/build_preview.py",
+    "grid_alignment": {
+      "schema_version": 1,
+      "applicable": true,
+      "auditable": true,
+      "verdict": "PASS",
+      "backend": "unknown",
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "comparisons": 19,
+        "exemptions": 0
+      },
+      "tolerances": {
+        "alignment_pt": 1.5,
+        "gutter_pt": 1.5
+      },
+      "layout": {
+        "schema_version": 1,
+        "backend": "unknown",
+        "figure": {
+          "width_pt": 527.244094488189,
+          "height_pt": 756.8503937007874
+        },
+        "panels": [
+          {
+            "id": "r1c1",
+            "bbox_pt": [
+              10.204724409448819,
+              613.9842519685039,
+              108.85039370078741,
+              694.7716535433071
+            ],
+            "grid_id": "annotation",
+            "row_start": 0,
+            "row_stop": 1,
+            "col_start": 0,
+            "col_stop": 1
+          },
+          {
+            "id": "r1c2",
+            "bbox_pt": [
+              113.95275590551182,
+              613.9842519685039,
+              212.5984251968504,
+              694.7716535433071
+            ],
+            "grid_id": "annotation",
+            "row_start": 0,
+            "row_stop": 1,
+            "col_start": 1,
+            "col_stop": 2
+          },
+          {
+            "id": "r1c3",
+            "bbox_pt": [
+              217.70078740157481,
+              613.9842519685039,
+              316.3464566929134,
+              694.7716535433071
+            ],
+            "grid_id": "annotation",
+            "row_start": 0,
+            "row_stop": 1,
+            "col_start": 2,
+            "col_stop": 3
+          },
+          {
+            "id": "r1c4",
+            "bbox_pt": [
+              321.4488188976378,
+              613.9842519685039,
+              420.0944881889764,
+              694.7716535433071
+            ],
+            "grid_id": "annotation",
+            "row_start": 0,
+            "row_stop": 1,
+            "col_start": 3,
+            "col_stop": 4
+          },
+          {
+            "id": "r1c5",
+            "bbox_pt": [
+              425.1968503937008,
+              613.9842519685039,
+              523.8425196850394,
+              694.7716535433071
+            ],
+            "grid_id": "annotation",
+            "row_start": 0,
+            "row_stop": 1,
+            "col_start": 4,
+            "col_stop": 5
+          },
+          {
+            "id": "r2c1",
+            "bbox_pt": [
+              10.204724409448819,
+              515.3385826771654,
+              108.85039370078741,
+              596.1259842519686
+            ],
+            "grid_id": "annotation",
+            "row_start": 1,
+            "row_stop": 2,
+            "col_start": 0,
+            "col_stop": 1
+          },
+          {
+            "id": "r2c2",
+            "bbox_pt": [
+              113.95275590551182,
+              515.3385826771654,
+              212.5984251968504,
+              596.1259842519686
+            ],
+            "grid_id": "annotation",
+            "row_start": 1,
+            "row_stop": 2,
+            "col_start": 1,
+            "col_stop": 2
+          },
+          {
+            "id": "r2c3",
+            "bbox_pt": [
+              217.70078740157481,
+              515.3385826771654,
+              316.3464566929134,
+              596.1259842519686
+            ],
+            "grid_id": "annotation",
+            "row_start": 1,
+            "row_stop": 2,
+            "col_start": 2,
+            "col_stop": 3
+          },
+          {
+            "id": "r2c4",
+            "bbox_pt": [
+              321.4488188976378,
+              515.3385826771654,
+              420.0944881889764,
+              596.1259842519686
+            ],
+            "grid_id": "annotation",
+            "row_start": 1,
+            "row_stop": 2,
+            "col_start": 3,
+            "col_stop": 4
+          },
+          {
+            "id": "r2c5",
+            "bbox_pt": [
+              425.1968503937008,
+              515.3385826771654,
+              523.8425196850394,
+              596.1259842519686
+            ],
+            "grid_id": "annotation",
+            "row_start": 1,
+            "row_stop": 2,
+            "col_start": 4,
+            "col_stop": 5
+          },
+          {
+            "id": "r3c1",
+            "bbox_pt": [
+              10.204724409448819,
+              416.6929133858268,
+              108.85039370078741,
+              497.4803149606299
+            ],
+            "grid_id": "annotation",
+            "row_start": 2,
+            "row_stop": 3,
+            "col_start": 0,
+            "col_stop": 1
+          },
+          {
+            "id": "r3c2",
+            "bbox_pt": [
+              113.95275590551182,
+              416.6929133858268,
+              212.5984251968504,
+              497.4803149606299
+            ],
+            "grid_id": "annotation",
+            "row_start": 2,
+            "row_stop": 3,
+            "col_start": 1,
+            "col_stop": 2
+          },
+          {
+            "id": "r3c3",
+            "bbox_pt": [
+              217.70078740157481,
+              416.6929133858268,
+              316.3464566929134,
+              497.4803149606299
+            ],
+            "grid_id": "annotation",
+            "row_start": 2,
+            "row_stop": 3,
+            "col_start": 2,
+            "col_stop": 3
+          },
+          {
+            "id": "r3c4",
+            "bbox_pt": [
+              321.4488188976378,
+              416.6929133858268,
+              420.0944881889764,
+              497.4803149606299
+            ],
+            "grid_id": "annotation",
+            "row_start": 2,
+            "row_stop": 3,
+            "col_start": 3,
+            "col_stop": 4
+          },
+          {
+            "id": "r3c5",
+            "bbox_pt": [
+              425.1968503937008,
+              416.6929133858268,
+              523.8425196850394,
+              497.4803149606299
+            ],
+            "grid_id": "annotation",
+            "row_start": 2,
+            "row_stop": 3,
+            "col_start": 4,
+            "col_stop": 5
+          },
+          {
+            "id": "r4c1",
+            "bbox_pt": [
+              10.204724409448819,
+              318.0472440944882,
+              108.85039370078741,
+              398.8346456692914
+            ],
+            "grid_id": "annotation",
+            "row_start": 3,
+            "row_stop": 4,
+            "col_start": 0,
+            "col_stop": 1
+          },
+          {
+            "id": "r4c2",
+            "bbox_pt": [
+              113.95275590551182,
+              318.0472440944882,
+              212.5984251968504,
+              398.8346456692914
+            ],
+            "grid_id": "annotation",
+            "row_start": 3,
+            "row_stop": 4,
+            "col_start": 1,
+            "col_stop": 2
+          },
+          {
+            "id": "r4c3",
+            "bbox_pt": [
+              217.70078740157481,
+              318.0472440944882,
+              316.3464566929134,
+              398.8346456692914
+            ],
+            "grid_id": "annotation",
+            "row_start": 3,
+            "row_stop": 4,
+            "col_start": 2,
+            "col_stop": 3
+          },
+          {
+            "id": "r4c4",
+            "bbox_pt": [
+              321.4488188976378,
+              318.0472440944882,
+              420.0944881889764,
+              398.8346456692914
+            ],
+            "grid_id": "annotation",
+            "row_start": 3,
+            "row_stop": 4,
+            "col_start": 3,
+            "col_stop": 4
+          },
+          {
+            "id": "r4c5",
+            "bbox_pt": [
+              425.1968503937008,
+              318.0472440944882,
+              523.8425196850394,
+              398.8346456692914
+            ],
+            "grid_id": "annotation",
+            "row_start": 3,
+            "row_stop": 4,
+            "col_start": 4,
+            "col_stop": 5
+          },
+          {
+            "id": "r5c1",
+            "bbox_pt": [
+              10.204724409448819,
+              219.40157480314963,
+              108.85039370078741,
+              300.18897637795277
+            ],
+            "grid_id": "annotation",
+            "row_start": 4,
+            "row_stop": 5,
+            "col_start": 0,
+            "col_stop": 1
+          },
+          {
+            "id": "r5c2",
+            "bbox_pt": [
+              113.95275590551182,
+              219.40157480314963,
+              212.5984251968504,
+              300.18897637795277
+            ],
+            "grid_id": "annotation",
+            "row_start": 4,
+            "row_stop": 5,
+            "col_start": 1,
+            "col_stop": 2
+          },
+          {
+            "id": "r5c3",
+            "bbox_pt": [
+              217.70078740157481,
+              219.40157480314963,
+              316.3464566929134,
+              300.18897637795277
+            ],
+            "grid_id": "annotation",
+            "row_start": 4,
+            "row_stop": 5,
+            "col_start": 2,
+            "col_stop": 3
+          },
+          {
+            "id": "r5c4",
+            "bbox_pt": [
+              321.4488188976378,
+              219.40157480314963,
+              420.0944881889764,
+              300.18897637795277
+            ],
+            "grid_id": "annotation",
+            "row_start": 4,
+            "row_stop": 5,
+            "col_start": 3,
+            "col_stop": 4
+          },
+          {
+            "id": "r5c5",
+            "bbox_pt": [
+              425.1968503937008,
+              219.40157480314963,
+              523.8425196850394,
+              300.18897637795277
+            ],
+            "grid_id": "annotation",
+            "row_start": 4,
+            "row_stop": 5,
+            "col_start": 4,
+            "col_stop": 5
+          },
+          {
+            "id": "r6c1",
+            "bbox_pt": [
+              10.204724409448819,
+              120.75590551181104,
+              108.85039370078741,
+              201.5433070866142
+            ],
+            "grid_id": "annotation",
+            "row_start": 5,
+            "row_stop": 6,
+            "col_start": 0,
+            "col_stop": 1
+          },
+          {
+            "id": "r6c2",
+            "bbox_pt": [
+              113.95275590551182,
+              120.75590551181104,
+              212.5984251968504,
+              201.5433070866142
+            ],
+            "grid_id": "annotation",
+            "row_start": 5,
+            "row_stop": 6,
+            "col_start": 1,
+            "col_stop": 2
+          },
+          {
+            "id": "r6c3",
+            "bbox_pt": [
+              217.70078740157481,
+              120.75590551181104,
+              316.3464566929134,
+              201.5433070866142
+            ],
+            "grid_id": "annotation",
+            "row_start": 5,
+            "row_stop": 6,
+            "col_start": 2,
+            "col_stop": 3
+          },
+          {
+            "id": "r6c4",
+            "bbox_pt": [
+              321.4488188976378,
+              120.75590551181104,
+              420.0944881889764,
+              201.5433070866142
+            ],
+            "grid_id": "annotation",
+            "row_start": 5,
+            "row_stop": 6,
+            "col_start": 3,
+            "col_stop": 4
+          },
+          {
+            "id": "r6c5",
+            "bbox_pt": [
+              425.1968503937008,
+              120.75590551181104,
+              523.8425196850394,
+              201.5433070866142
+            ],
+            "grid_id": "annotation",
+            "row_start": 5,
+            "row_stop": 6,
+            "col_start": 4,
+            "col_stop": 5
+          },
+          {
+            "id": "r7c1",
+            "bbox_pt": [
+              10.204724409448819,
+              22.11023622047244,
+              108.85039370078741,
+              102.8976377952756
+            ],
+            "grid_id": "annotation",
+            "row_start": 6,
+            "row_stop": 7,
+            "col_start": 0,
+            "col_stop": 1
+          },
+          {
+            "id": "r7c2",
+            "bbox_pt": [
+              113.95275590551182,
+              22.11023622047244,
+              212.5984251968504,
+              102.8976377952756
+            ],
+            "grid_id": "annotation",
+            "row_start": 6,
+            "row_stop": 7,
+            "col_start": 1,
+            "col_stop": 2
+          },
+          {
+            "id": "r7c3",
+            "bbox_pt": [
+              217.70078740157481,
+              22.11023622047244,
+              316.3464566929134,
+              102.8976377952756
+            ],
+            "grid_id": "annotation",
+            "row_start": 6,
+            "row_stop": 7,
+            "col_start": 2,
+            "col_stop": 3
+          },
+          {
+            "id": "r7c4",
+            "bbox_pt": [
+              321.4488188976378,
+              22.11023622047244,
+              420.0944881889764,
+              102.8976377952756
+            ],
+            "grid_id": "annotation",
+            "row_start": 6,
+            "row_stop": 7,
+            "col_start": 3,
+            "col_stop": 4
+          },
+          {
+            "id": "r7c5",
+            "bbox_pt": [
+              425.1968503937008,
+              22.11023622047244,
+              523.8425196850394,
+              102.8976377952756
+            ],
+            "grid_id": "annotation",
+            "row_start": 6,
+            "row_stop": 7,
+            "col_start": 4,
+            "col_stop": 5
+          }
+        ],
+        "row_groups": [
+          {
+            "id": "inferred-row-1",
+            "panels": [
+              "r1c1",
+              "r1c2",
+              "r1c3",
+              "r1c4",
+              "r1c5"
+            ]
+          },
+          {
+            "id": "inferred-row-2",
+            "panels": [
+              "r2c1",
+              "r2c2",
+              "r2c3",
+              "r2c4",
+              "r2c5"
+            ]
+          },
+          {
+            "id": "inferred-row-3",
+            "panels": [
+              "r3c1",
+              "r3c2",
+              "r3c3",
+              "r3c4",
+              "r3c5"
+            ]
+          },
+          {
+            "id": "inferred-row-4",
+            "panels": [
+              "r4c1",
+              "r4c2",
+              "r4c3",
+              "r4c4",
+              "r4c5"
+            ]
+          },
+          {
+            "id": "inferred-row-5",
+            "panels": [
+              "r5c1",
+              "r5c2",
+              "r5c3",
+              "r5c4",
+              "r5c5"
+            ]
+          },
+          {
+            "id": "inferred-row-6",
+            "panels": [
+              "r6c1",
+              "r6c2",
+              "r6c3",
+              "r6c4",
+              "r6c5"
+            ]
+          },
+          {
+            "id": "inferred-row-7",
+            "panels": [
+              "r7c1",
+              "r7c2",
+              "r7c3",
+              "r7c4",
+              "r7c5"
+            ]
+          }
+        ],
+        "column_groups": [
+          {
+            "id": "inferred-column-1",
+            "panels": [
+              "r1c1",
+              "r2c1",
+              "r3c1",
+              "r4c1",
+              "r5c1",
+              "r6c1",
+              "r7c1"
+            ]
+          },
+          {
+            "id": "inferred-column-2",
+            "panels": [
+              "r1c2",
+              "r2c2",
+              "r3c2",
+              "r4c2",
+              "r5c2",
+              "r6c2",
+              "r7c2"
+            ]
+          },
+          {
+            "id": "inferred-column-3",
+            "panels": [
+              "r1c3",
+              "r2c3",
+              "r3c3",
+              "r4c3",
+              "r5c3",
+              "r6c3",
+              "r7c3"
+            ]
+          },
+          {
+            "id": "inferred-column-4",
+            "panels": [
+              "r1c4",
+              "r2c4",
+              "r3c4",
+              "r4c4",
+              "r5c4",
+              "r6c4",
+              "r7c4"
+            ]
+          },
+          {
+            "id": "inferred-column-5",
+            "panels": [
+              "r1c5",
+              "r2c5",
+              "r3c5",
+              "r4c5",
+              "r5c5",
+              "r6c5",
+              "r7c5"
+            ]
+          }
+        ],
+        "boundary_groups": [],
+        "exemptions": []
+      },
+      "findings": []
+    }
+  },
+  "data_integrity": "No RGB, depth, mask, schema, or desktop PPT files changed.",
+  "automated_collision_audit": "Unavailable: PyMuPDF not installed. All PDF text bounds checked with pdfplumber and visual inspection performed.",
+  "source_validator_note": "The Matplotlib-only source validator cannot assess this existing Pillow-based preview script; direct image, font, sample-selection and boundary checks are used.",
+  "sha256": {
+    "dataset_overview.png": "3350c89b5e965ceac8233763a18339cee4e385292a8dd72e1dc26efa212cbb31",
+    "annotation_overview.png": "680122e23623ee0909a0002cbecc0cc8f15e03c5451e6fad7bdc57ba31a63702",
+    "annotation_overview.json": "8decf49987b7e757fd29af0490a2880fe1b6eb1cd0e5d7a0cd7381f658273dbc",
+    "dataset_overview.pdf": "cb50d6a0788c0e28a4119ada7c485a8f8c997455d66a1db2462d69a6d9d8ade6"
+  }
+}

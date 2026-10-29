@@ -1,0 +1,37 @@
+[
+  {
+    "category": "beaker",
+    "sample_id": "single__S_BK002_B_NEAR_HIGH_001__scene_000001__BK_002",
+    "selection": "middle_index_of_sorted_single_samples"
+  },
+  {
+    "category": "erlenmeyer_flask",
+    "sample_id": "single__S_EF003_A_001__scene_000007__EF_003",
+    "selection": "middle_index_of_sorted_single_samples"
+  },
+  {
+    "category": "reagent_bottle",
+    "sample_id": "single__S_RB003_A_001__scene_000005__RB_003",
+    "selection": "middle_index_of_sorted_single_samples"
+  },
+  {
+    "category": "graduated_cylinder",
+    "sample_id": "single__S_GC003_A_001__scene_000001__GC_003",
+    "selection": "middle_index_of_sorted_single_samples"
+  },
+  {
+    "category": "test_tube",
+    "sample_id": "single__S_TT003_A_001__scene_000004__TT_003",
+    "selection": "middle_index_of_sorted_single_samples"
+  },
+  {
+    "category": "volumetric_flask",
+    "sample_id": "single__S_VF002_A_001__scene_000006__VF_002",
+    "selection": "middle_index_of_sorted_single_samples"
+  },
+  {
+    "category": "plain_mouth_flask",
+    "sample_id": "single__S_PF002_B_FAR_HIGH_001__scene_000001__PF_002",
+    "selection": "middle_index_of_sorted_single_samples"
+  }
+]
