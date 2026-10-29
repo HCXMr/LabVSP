@@ -1,0 +1,8 @@
+# 完整数据通过 Release 附件分发，本地数据仍保留。
+/data/
+/dist/
+/_local/
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this dataset and state the version used. The associated manuscript is in preparation."
+type: dataset
+title: "LabVSP"
+version: "1.0.0"
+date-released: "2026-10-29"
+authors:
+  - family-names: "Huang"
+    given-names: "Chengxuan"
+    affiliation: "南方科技大学工学院机械与能源工程系周利锋课题组"
+license: CC-BY-NC-4.0
+url: "https://github.com/HCXMr/LabVSP"
+repository-code: "https://github.com/HCXMr/LabVSP"
+abstract: "RGB-D observations of transparent laboratory vessels with instance, visible-part, functional-region, and contact-policy annotations. Includes 7 categories, 30 physical objects, 356 RGB-D pairs and 419 annotated instances. Version 1.0.0 preserves the data content of the local 0.1.0-draft."
+keywords:
+  - transparent laboratory vessels
+  - RGB-D
+  - visible parts
+  - functional regions
+  - contact policy
