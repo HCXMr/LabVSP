@@ -1,0 +1,61 @@
+{
+  "schema_version": "labglass.camera_info.v2",
+  "width": 640,
+  "height": 480,
+  "K": [
+    609.143798828125,
+    0.0,
+    321.1142272949219,
+    0.0,
+    608.7783203125,
+    243.1230010986328,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "D": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "R": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "P": [
+    609.143798828125,
+    0.0,
+    321.1142272949219,
+    0.0,
+    0.0,
+    608.7783203125,
+    243.1230010986328,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+  ],
+  "distortion_model": "plumb_bob",
+  "depth_scale_m_per_unit": 0.001,
+  "rgb_depth_pixel_aligned": true,
+  "color_frame_id": "camera_color_optical_frame",
+  "depth_frame_id": "camera_color_optical_frame",
+  "color_stamp_s": 1789299223.1758134,
+  "depth_stamp_s": 1789299223.1758134,
+  "sync_delta_s": 0.0,
+  "topics": {
+    "color": "/camera/camera/color/image_raw",
+    "aligned_depth": "/camera/camera/aligned_depth_to_color/image_raw",
+    "camera_info": "/camera/camera/color/camera_info"
+  }
+}
