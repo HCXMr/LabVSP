@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "data_archive": {
+    "filename": "LabVSP-v1.0.0-data.tar.gz",
+    "bytes": 141562204,
+    "sha256": "f0eaba2e0c8775ce8502fd73126e20adb46582e81756de26810bdfedffd9986b",
+    "url": "https://github.com/HCXMr/LabVSP/releases/download/v1.0.0/LabVSP-v1.0.0-data.tar.gz",
+    "archive_root": "data/",
+    "members": 9747,
+    "payload_members": 9741,
+    "license_and_citation_files": [
+      "LICENSE.md",
+      "LICENSE-DATA.txt",
+      "LICENSE-CODE.md",
+      "NOTICE.md",
+      "CITATION.cff",
+      "citation.bib"
+    ]
+  },
+  "every_member_matches_payload_sha256": true,
+  "unsafe_or_unexpected_members": 0
+}

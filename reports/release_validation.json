@@ -1,0 +1,2715 @@
+{
+  "status": "PASS",
+  "scope": "all exported images and labels; structural and integrity checks only",
+  "errors": [],
+  "checked_images": 356,
+  "checked_instances": 419,
+  "checked_payload_files": 9741,
+  "payload_bytes": 675032703,
+  "image_counts": {
+    "train": 195,
+    "multi_test": 5,
+    "val": 81,
+    "test": 75
+  },
+  "instance_counts": {
+    "train": 244,
+    "multi_test": 19,
+    "val": 81,
+    "test": 75
+  },
+  "physical_objects": 30,
+  "category_instance_counts": {
+    "beaker": {
+      "train": 30,
+      "multi_test": 2,
+      "val": 14,
+      "test": 13
+    },
+    "erlenmeyer_flask": {
+      "train": 62,
+      "multi_test": 5,
+      "test": 13,
+      "val": 13
+    },
+    "volumetric_flask": {
+      "train": 24,
+      "multi_test": 2,
+      "test": 11,
+      "val": 11
+    },
+    "graduated_cylinder": {
+      "train": 35,
+      "multi_test": 2,
+      "test": 11,
+      "val": 11
+    },
+    "reagent_bottle": {
+      "multi_test": 2,
+      "train": 44,
+      "val": 13,
+      "test": 12
+    },
+    "plain_mouth_flask": {
+      "train": 25,
+      "multi_test": 3,
+      "val": 12,
+      "test": 7
+    },
+    "test_tube": {
+      "multi_test": 3,
+      "train": 24,
+      "test": 8,
+      "val": 7
+    }
+  },
+  "part_pixel_counts_inside_instances": {
+    "1": 4946406,
+    "2": 474228,
+    "3": 529847,
+    "4": 267517,
+    "5": 54045,
+    "7": 786093,
+    "9": 376659,
+    "8": 491048,
+    "255": 21094
+  },
+  "part_instance_support": {
+    "1": 419,
+    "2": 355,
+    "3": 248,
+    "4": 320,
+    "5": 140,
+    "7": 217,
+    "9": 160,
+    "8": 140,
+    "255": 240
+  },
+  "policy_pixel_counts_inside_instances": {
+    "1": 3483306,
+    "2": 922907,
+    "3": 3522220,
+    "255": 18504
+  },
+  "visible_part_instance_support": {
+    "body": 419,
+    "rim": 355,
+    "inner_surface": 248,
+    "base": 320,
+    "spout": 140,
+    "handle": 0,
+    "neck": 217,
+    "cap_or_stop": 140,
+    "shoulder": 160
+  },
+  "functional_region_instance_support": {
+    "scale_print": 207,
+    "logo_or_text": 288,
+    "pouring_region": 276,
+    "sealing_region": 140
+  },
+  "rgb_shapes": {
+    "(480, 640, 3)": 356
+  },
+  "depth_loaded_dtypes": {
+    "int32": 356
+  },
+  "declared_depth_scales_m_per_unit": {
+    "0.001": 356
+  },
+  "depth_scale_independent_verification_not_recorded_images": 356,
+  "rgb_depth_sync_delta_s_range": [
+    0.0,
+    0.06726789474487305
+  ],
+  "duplicate_rgb_groups": [],
+  "instance_overlap_pairs": [
+    {
+      "image_id": "multi__MIX_20260915_150730__scene_000001",
+      "objects": [
+        "BK_003",
+        "EF_002"
+      ],
+      "overlap_pixels": 53
+    },
+    {
+      "image_id": "multi__MIX_20260915_152835_102153__scene_000001",
+      "objects": [
+        "BK_003",
+        "EF_002"
+      ],
+      "overlap_pixels": 39
+    },
+    {
+      "image_id": "multi__MIX_20260915_152919_439772__scene_000001",
+      "objects": [
+        "BK_003",
+        "EF_004"
+      ],
+      "overlap_pixels": 71
+    },
+    {
+      "image_id": "multi__MIX_20260915_153505_349715__scene_000001",
+      "objects": [
+        "BK_003",
+        "EF_002"
+      ],
+      "overlap_pixels": 101
+    },
+    {
+      "image_id": "multi__MIX_20260915_153505_349715__scene_000001",
+      "objects": [
+        "GC_001",
+        "RB_005"
+      ],
+      "overlap_pixels": 44
+    },
+    {
+      "image_id": "multi__MIX_20260915_153733_647302__scene_000001",
+      "objects": [
+        "GC_001",
+        "RB_005"
+      ],
+      "overlap_pixels": 18
+    },
+    {
+      "image_id": "multi__MIX_20260915_161105_111443__scene_000001",
+      "objects": [
+        "GC_001",
+        "PF_002"
+      ],
+      "overlap_pixels": 56
+    },
+    {
+      "image_id": "multi__MIX_20260915_162502_194014__scene_000001",
+      "objects": [
+        "GC_001",
+        "RB_002"
+      ],
+      "overlap_pixels": 6
+    }
+  ],
+  "unknown_by_sample": [
+    {
+      "sample_id": "multi__MIX_20260915_093429__scene_000001__BK_003",
+      "instance_pixels": 24661,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_093429__scene_000001__EF_001",
+      "instance_pixels": 9442,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_093429__scene_000001__EF_002",
+      "instance_pixels": 14206,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_150451__scene_000001__BK_003",
+      "instance_pixels": 21329,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_150451__scene_000001__EF_001",
+      "instance_pixels": 14360,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_150451__scene_000001__EF_002",
+      "instance_pixels": 15410,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_150730__scene_000001__BK_003",
+      "instance_pixels": 22881,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_150730__scene_000001__EF_001",
+      "instance_pixels": 14979,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_150730__scene_000001__EF_002",
+      "instance_pixels": 5541,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152607_601016__scene_000001__BK_003",
+      "instance_pixels": 13050,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152607_601016__scene_000001__EF_001",
+      "instance_pixels": 18822,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152607_601016__scene_000001__EF_002",
+      "instance_pixels": 13058,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152835_102153__scene_000001__BK_003",
+      "instance_pixels": 23003,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152835_102153__scene_000001__EF_002",
+      "instance_pixels": 6399,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152835_102153__scene_000001__EF_004",
+      "instance_pixels": 14098,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152835_102153__scene_000001__VF_002",
+      "instance_pixels": 16733,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152919_439772__scene_000001__BK_003",
+      "instance_pixels": 7844,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152919_439772__scene_000001__EF_002",
+      "instance_pixels": 9627,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152919_439772__scene_000001__EF_004",
+      "instance_pixels": 21812,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152919_439772__scene_000001__VF_002",
+      "instance_pixels": 18316,
+      "part_unknown_pixels": 6,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152945_843767__scene_000001__BK_003",
+      "instance_pixels": 13284,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152945_843767__scene_000001__EF_002",
+      "instance_pixels": 9850,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152945_843767__scene_000001__EF_004",
+      "instance_pixels": 23097,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_152945_843767__scene_000001__VF_002",
+      "instance_pixels": 18288,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153251_826017__scene_000001__BK_003",
+      "instance_pixels": 27472,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153251_826017__scene_000001__EF_002",
+      "instance_pixels": 12871,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153251_826017__scene_000001__GC_001",
+      "instance_pixels": 11928,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153251_826017__scene_000001__VF_002",
+      "instance_pixels": 18655,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153428_531220__scene_000001__BK_003",
+      "instance_pixels": 10107,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153428_531220__scene_000001__EF_002",
+      "instance_pixels": 21059,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153428_531220__scene_000001__GC_001",
+      "instance_pixels": 9710,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153428_531220__scene_000001__RB_005",
+      "instance_pixels": 28869,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153428_531220__scene_000001__VF_002",
+      "instance_pixels": 13051,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153505_349715__scene_000001__BK_003",
+      "instance_pixels": 8235,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153505_349715__scene_000001__EF_002",
+      "instance_pixels": 10886,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153505_349715__scene_000001__GC_001",
+      "instance_pixels": 8219,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153505_349715__scene_000001__RB_005",
+      "instance_pixels": 31801,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153505_349715__scene_000001__VF_002",
+      "instance_pixels": 18076,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153556_555436__scene_000001__EF_002",
+      "instance_pixels": 9431,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153556_555436__scene_000001__GC_001",
+      "instance_pixels": 10485,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153556_555436__scene_000001__RB_005",
+      "instance_pixels": 24880,
+      "part_unknown_pixels": 3,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153556_555436__scene_000001__VF_002",
+      "instance_pixels": 15946,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153631_426316__scene_000001__EF_002",
+      "instance_pixels": 10617,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153631_426316__scene_000001__GC_001",
+      "instance_pixels": 22729,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153631_426316__scene_000001__RB_005",
+      "instance_pixels": 22709,
+      "part_unknown_pixels": 2,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153631_426316__scene_000001__VF_002",
+      "instance_pixels": 10250,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153713_840513__scene_000001__EF_002",
+      "instance_pixels": 12572,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153713_840513__scene_000001__GC_001",
+      "instance_pixels": 10337,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153713_840513__scene_000001__RB_005",
+      "instance_pixels": 29277,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153713_840513__scene_000001__VF_002",
+      "instance_pixels": 12390,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153733_647302__scene_000001__EF_002",
+      "instance_pixels": 12578,
+      "part_unknown_pixels": 5,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153733_647302__scene_000001__GC_001",
+      "instance_pixels": 5827,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153733_647302__scene_000001__RB_005",
+      "instance_pixels": 23819,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153733_647302__scene_000001__VF_002",
+      "instance_pixels": 16642,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153812_064952__scene_000001__EF_002",
+      "instance_pixels": 13579,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153812_064952__scene_000001__GC_001",
+      "instance_pixels": 17867,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153812_064952__scene_000001__RB_005",
+      "instance_pixels": 29195,
+      "part_unknown_pixels": 1,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_153812_064952__scene_000001__VF_002",
+      "instance_pixels": 10096,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161018_435177__scene_000001__GC_001",
+      "instance_pixels": 20226,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161018_435177__scene_000001__PF_002",
+      "instance_pixels": 35831,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161018_435177__scene_000001__VF_002",
+      "instance_pixels": 9746,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161038_402938__scene_000001__GC_001",
+      "instance_pixels": 15807,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161038_402938__scene_000001__PF_002",
+      "instance_pixels": 35873,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161038_402938__scene_000001__VF_002",
+      "instance_pixels": 14193,
+      "part_unknown_pixels": 1,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161105_111443__scene_000001__GC_001",
+      "instance_pixels": 19350,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161105_111443__scene_000001__PF_002",
+      "instance_pixels": 15058,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161105_111443__scene_000001__VF_002",
+      "instance_pixels": 13146,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161140_484320__scene_000001__GC_001",
+      "instance_pixels": 11372,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161140_484320__scene_000001__PF_002",
+      "instance_pixels": 37805,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161140_484320__scene_000001__VF_002",
+      "instance_pixels": 15740,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161329_697678__scene_000001__EF_004",
+      "instance_pixels": 27005,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161329_697678__scene_000001__PF_002",
+      "instance_pixels": 19896,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161329_697678__scene_000001__TT_001",
+      "instance_pixels": 12863,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161349_124965__scene_000001__EF_004",
+      "instance_pixels": 13650,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161349_124965__scene_000001__PF_002",
+      "instance_pixels": 36460,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161349_124965__scene_000001__TT_001",
+      "instance_pixels": 12829,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161512_220920__scene_000001__EF_004",
+      "instance_pixels": 16503,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161512_220920__scene_000001__PF_002",
+      "instance_pixels": 25629,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_161512_220920__scene_000001__TT_001",
+      "instance_pixels": 15069,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_162410_665297__scene_000001__EF_001",
+      "instance_pixels": 16315,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_162410_665297__scene_000001__GC_001",
+      "instance_pixels": 18785,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_162410_665297__scene_000001__RB_002",
+      "instance_pixels": 11939,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_162435_360929__scene_000001__EF_001",
+      "instance_pixels": 10334,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_162435_360929__scene_000001__GC_001",
+      "instance_pixels": 16674,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_162435_360929__scene_000001__RB_002",
+      "instance_pixels": 16537,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_162502_194014__scene_000001__EF_001",
+      "instance_pixels": 14821,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_162502_194014__scene_000001__GC_001",
+      "instance_pixels": 5605,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "multi__MIX_20260915_162502_194014__scene_000001__RB_002",
+      "instance_pixels": 12024,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK001_A_001__scene_000001__BK_001",
+      "instance_pixels": 11139,
+      "part_unknown_pixels": 261,
+      "policy_unknown_pixels": 178
+    },
+    {
+      "sample_id": "single__S_BK001_A_001__scene_000002__BK_001",
+      "instance_pixels": 10901,
+      "part_unknown_pixels": 274,
+      "policy_unknown_pixels": 248
+    },
+    {
+      "sample_id": "single__S_BK001_A_001__scene_000003__BK_001",
+      "instance_pixels": 10805,
+      "part_unknown_pixels": 198,
+      "policy_unknown_pixels": 110
+    },
+    {
+      "sample_id": "single__S_BK001_A_001__scene_000004__BK_001",
+      "instance_pixels": 10866,
+      "part_unknown_pixels": 273,
+      "policy_unknown_pixels": 184
+    },
+    {
+      "sample_id": "single__S_BK001_A_001__scene_000005__BK_001",
+      "instance_pixels": 11073,
+      "part_unknown_pixels": 152,
+      "policy_unknown_pixels": 87
+    },
+    {
+      "sample_id": "single__S_BK001_A_001__scene_000006__BK_001",
+      "instance_pixels": 11319,
+      "part_unknown_pixels": 74,
+      "policy_unknown_pixels": 47
+    },
+    {
+      "sample_id": "single__S_BK001_A_001__scene_000007__BK_001",
+      "instance_pixels": 11604,
+      "part_unknown_pixels": 223,
+      "policy_unknown_pixels": 227
+    },
+    {
+      "sample_id": "single__S_BK001_A_001__scene_000008__BK_001",
+      "instance_pixels": 11852,
+      "part_unknown_pixels": 103,
+      "policy_unknown_pixels": 150
+    },
+    {
+      "sample_id": "single__S_BK001_B_FAR_HIGH_001__scene_000001__BK_001",
+      "instance_pixels": 3149,
+      "part_unknown_pixels": 74,
+      "policy_unknown_pixels": 165
+    },
+    {
+      "sample_id": "single__S_BK001_B_FAR_LOW_001__scene_000001__BK_001",
+      "instance_pixels": 1944,
+      "part_unknown_pixels": 46,
+      "policy_unknown_pixels": 40
+    },
+    {
+      "sample_id": "single__S_BK001_B_NEAR_HIGH_001__scene_000001__BK_001",
+      "instance_pixels": 33286,
+      "part_unknown_pixels": 400,
+      "policy_unknown_pixels": 261
+    },
+    {
+      "sample_id": "single__S_BK001_B_NEAR_LOW_001__scene_000001__BK_001",
+      "instance_pixels": 26868,
+      "part_unknown_pixels": 445,
+      "policy_unknown_pixels": 170
+    },
+    {
+      "sample_id": "single__S_BK001_C_sence_001__scene_000001__BK_001",
+      "instance_pixels": 7333,
+      "part_unknown_pixels": 156,
+      "policy_unknown_pixels": 124
+    },
+    {
+      "sample_id": "single__S_BK001_C_sence_002__scene_000001__BK_001",
+      "instance_pixels": 11836,
+      "part_unknown_pixels": 167,
+      "policy_unknown_pixels": 207
+    },
+    {
+      "sample_id": "single__S_BK002_A_001__scene_000001__BK_002",
+      "instance_pixels": 32627,
+      "part_unknown_pixels": 335,
+      "policy_unknown_pixels": 207
+    },
+    {
+      "sample_id": "single__S_BK002_A_001__scene_000002__BK_002",
+      "instance_pixels": 32752,
+      "part_unknown_pixels": 169,
+      "policy_unknown_pixels": 247
+    },
+    {
+      "sample_id": "single__S_BK002_A_001__scene_000003__BK_002",
+      "instance_pixels": 31804,
+      "part_unknown_pixels": 245,
+      "policy_unknown_pixels": 173
+    },
+    {
+      "sample_id": "single__S_BK002_A_001__scene_000004__BK_002",
+      "instance_pixels": 31600,
+      "part_unknown_pixels": 269,
+      "policy_unknown_pixels": 183
+    },
+    {
+      "sample_id": "single__S_BK002_A_001__scene_000005__BK_002",
+      "instance_pixels": 31466,
+      "part_unknown_pixels": 198,
+      "policy_unknown_pixels": 234
+    },
+    {
+      "sample_id": "single__S_BK002_A_001__scene_000006__BK_002",
+      "instance_pixels": 31805,
+      "part_unknown_pixels": 159,
+      "policy_unknown_pixels": 174
+    },
+    {
+      "sample_id": "single__S_BK002_A_001__scene_000007__BK_002",
+      "instance_pixels": 31695,
+      "part_unknown_pixels": 129,
+      "policy_unknown_pixels": 120
+    },
+    {
+      "sample_id": "single__S_BK002_A_001__scene_000008__BK_002",
+      "instance_pixels": 31435,
+      "part_unknown_pixels": 354,
+      "policy_unknown_pixels": 392
+    },
+    {
+      "sample_id": "single__S_BK002_B_FAR_HIGH_001__scene_000001__BK_002",
+      "instance_pixels": 9075,
+      "part_unknown_pixels": 95,
+      "policy_unknown_pixels": 208
+    },
+    {
+      "sample_id": "single__S_BK002_B_FAR_LOW_001__scene_000001__BK_002",
+      "instance_pixels": 7195,
+      "part_unknown_pixels": 132,
+      "policy_unknown_pixels": 128
+    },
+    {
+      "sample_id": "single__S_BK002_B_NEAR_HIGH_001__scene_000001__BK_002",
+      "instance_pixels": 30925,
+      "part_unknown_pixels": 415,
+      "policy_unknown_pixels": 321
+    },
+    {
+      "sample_id": "single__S_BK002_B_NEAR_LOW_001__scene_000001__BK_002",
+      "instance_pixels": 25553,
+      "part_unknown_pixels": 492,
+      "policy_unknown_pixels": 546
+    },
+    {
+      "sample_id": "single__S_BK002_C_001__scene_000001__BK_002",
+      "instance_pixels": 8284,
+      "part_unknown_pixels": 167,
+      "policy_unknown_pixels": 162
+    },
+    {
+      "sample_id": "single__S_BK003_A_001__scene_000001__BK_003",
+      "instance_pixels": 17342,
+      "part_unknown_pixels": 155,
+      "policy_unknown_pixels": 3
+    },
+    {
+      "sample_id": "single__S_BK003_A_001__scene_000002__BK_003",
+      "instance_pixels": 16994,
+      "part_unknown_pixels": 19,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_BK003_A_001__scene_000003__BK_003",
+      "instance_pixels": 16874,
+      "part_unknown_pixels": 15,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK003_A_001__scene_000004__BK_003",
+      "instance_pixels": 16926,
+      "part_unknown_pixels": 25,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK003_A_001__scene_000005__BK_003",
+      "instance_pixels": 16844,
+      "part_unknown_pixels": 31,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK003_A_001__scene_000006__BK_003",
+      "instance_pixels": 17172,
+      "part_unknown_pixels": 24,
+      "policy_unknown_pixels": 4
+    },
+    {
+      "sample_id": "single__S_BK003_A_001__scene_000007__BK_003",
+      "instance_pixels": 18026,
+      "part_unknown_pixels": 25,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_BK003_A_001__scene_000008__BK_003",
+      "instance_pixels": 18298,
+      "part_unknown_pixels": 27,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK003_B_FAR_LOW_001__scene_000001__BK_003",
+      "instance_pixels": 13071,
+      "part_unknown_pixels": 3,
+      "policy_unknown_pixels": 11
+    },
+    {
+      "sample_id": "single__S_BK003_B_NEAR_HIGH_001__scene_000001__BK_003",
+      "instance_pixels": 27613,
+      "part_unknown_pixels": 38,
+      "policy_unknown_pixels": 12
+    },
+    {
+      "sample_id": "single__S_BK003_C_LAB_BENCH_001__scene_000001__BK_003",
+      "instance_pixels": 12184,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 3
+    },
+    {
+      "sample_id": "single__S_BK004_A_001__scene_000001__BK_004",
+      "instance_pixels": 32542,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK004_A_001__scene_000002__BK_004",
+      "instance_pixels": 31342,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK004_A_001__scene_000003__BK_004",
+      "instance_pixels": 31122,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK004_A_001__scene_000004__BK_004",
+      "instance_pixels": 31756,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK004_A_001__scene_000005__BK_004",
+      "instance_pixels": 32372,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK004_A_001__scene_000006__BK_004",
+      "instance_pixels": 35267,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK004_A_001__scene_000007__BK_004",
+      "instance_pixels": 33991,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK004_A_001__scene_000008__BK_004",
+      "instance_pixels": 33221,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK004_B_FAR_LOW_001__scene_000001__BK_004",
+      "instance_pixels": 7852,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK004_B_NEAR_HIGH_001__scene_000001__BK_004",
+      "instance_pixels": 33858,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_BK004_C_LAB_BENCH_001__scene_000001__BK_004",
+      "instance_pixels": 10138,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_EF001_A_001__scene_000001__EF_001",
+      "instance_pixels": 11266,
+      "part_unknown_pixels": 249,
+      "policy_unknown_pixels": 103
+    },
+    {
+      "sample_id": "single__S_EF001_A_001__scene_000002__EF_001",
+      "instance_pixels": 11239,
+      "part_unknown_pixels": 100,
+      "policy_unknown_pixels": 128
+    },
+    {
+      "sample_id": "single__S_EF001_A_001__scene_000003__EF_001",
+      "instance_pixels": 11147,
+      "part_unknown_pixels": 144,
+      "policy_unknown_pixels": 107
+    },
+    {
+      "sample_id": "single__S_EF001_A_001__scene_000004__EF_001",
+      "instance_pixels": 10987,
+      "part_unknown_pixels": 139,
+      "policy_unknown_pixels": 79
+    },
+    {
+      "sample_id": "single__S_EF001_A_001__scene_000005__EF_001",
+      "instance_pixels": 10591,
+      "part_unknown_pixels": 157,
+      "policy_unknown_pixels": 119
+    },
+    {
+      "sample_id": "single__S_EF001_A_001__scene_000006__EF_001",
+      "instance_pixels": 10546,
+      "part_unknown_pixels": 107,
+      "policy_unknown_pixels": 229
+    },
+    {
+      "sample_id": "single__S_EF001_A_001__scene_000007__EF_001",
+      "instance_pixels": 10367,
+      "part_unknown_pixels": 103,
+      "policy_unknown_pixels": 125
+    },
+    {
+      "sample_id": "single__S_EF001_A_001__scene_000008__EF_001",
+      "instance_pixels": 10348,
+      "part_unknown_pixels": 154,
+      "policy_unknown_pixels": 62
+    },
+    {
+      "sample_id": "single__S_EF001_B_FAR_HIGH_001__scene_000001__EF_001",
+      "instance_pixels": 3832,
+      "part_unknown_pixels": 31,
+      "policy_unknown_pixels": 61
+    },
+    {
+      "sample_id": "single__S_EF001_B_FAR_LOW_001__scene_000001__EF_001",
+      "instance_pixels": 8974,
+      "part_unknown_pixels": 159,
+      "policy_unknown_pixels": 184
+    },
+    {
+      "sample_id": "single__S_EF001_B_NEAR_HIGH_001__scene_000001__EF_001",
+      "instance_pixels": 23194,
+      "part_unknown_pixels": 82,
+      "policy_unknown_pixels": 274
+    },
+    {
+      "sample_id": "single__S_EF001_B_NEAR_LOW_001__scene_000001__EF_001",
+      "instance_pixels": 41107,
+      "part_unknown_pixels": 587,
+      "policy_unknown_pixels": 260
+    },
+    {
+      "sample_id": "single__S_EF001_C_001__scene_000001__EF_001",
+      "instance_pixels": 18417,
+      "part_unknown_pixels": 120,
+      "policy_unknown_pixels": 173
+    },
+    {
+      "sample_id": "single__S_EF002_A_001__scene_000001__EF_002",
+      "instance_pixels": 13498,
+      "part_unknown_pixels": 110,
+      "policy_unknown_pixels": 207
+    },
+    {
+      "sample_id": "single__S_EF002_A_001__scene_000002__EF_002",
+      "instance_pixels": 13377,
+      "part_unknown_pixels": 130,
+      "policy_unknown_pixels": 150
+    },
+    {
+      "sample_id": "single__S_EF002_A_001__scene_000003__EF_002",
+      "instance_pixels": 13424,
+      "part_unknown_pixels": 166,
+      "policy_unknown_pixels": 245
+    },
+    {
+      "sample_id": "single__S_EF002_A_001__scene_000004__EF_002",
+      "instance_pixels": 13296,
+      "part_unknown_pixels": 150,
+      "policy_unknown_pixels": 169
+    },
+    {
+      "sample_id": "single__S_EF002_A_001__scene_000005__EF_002",
+      "instance_pixels": 13425,
+      "part_unknown_pixels": 141,
+      "policy_unknown_pixels": 215
+    },
+    {
+      "sample_id": "single__S_EF002_A_001__scene_000006__EF_002",
+      "instance_pixels": 13099,
+      "part_unknown_pixels": 83,
+      "policy_unknown_pixels": 114
+    },
+    {
+      "sample_id": "single__S_EF002_A_001__scene_000007__EF_002",
+      "instance_pixels": 13063,
+      "part_unknown_pixels": 130,
+      "policy_unknown_pixels": 119
+    },
+    {
+      "sample_id": "single__S_EF002_A_001__scene_000008__EF_002",
+      "instance_pixels": 13133,
+      "part_unknown_pixels": 77,
+      "policy_unknown_pixels": 141
+    },
+    {
+      "sample_id": "single__S_EF002_B_FAR_HIGH_001__scene_000001__EF_002",
+      "instance_pixels": 3776,
+      "part_unknown_pixels": 82,
+      "policy_unknown_pixels": 98
+    },
+    {
+      "sample_id": "single__S_EF002_B_FAR_LOW_001__scene_000001__EF_002",
+      "instance_pixels": 8364,
+      "part_unknown_pixels": 119,
+      "policy_unknown_pixels": 199
+    },
+    {
+      "sample_id": "single__S_EF002_B_NEAR_HIGH_001__scene_000001__EF_002",
+      "instance_pixels": 21462,
+      "part_unknown_pixels": 222,
+      "policy_unknown_pixels": 269
+    },
+    {
+      "sample_id": "single__S_EF002_B_NEAR_LOW_001__scene_000001__EF_002",
+      "instance_pixels": 38279,
+      "part_unknown_pixels": 107,
+      "policy_unknown_pixels": 288
+    },
+    {
+      "sample_id": "single__S_EF002_C_001__scene_000001__EF_002",
+      "instance_pixels": 18659,
+      "part_unknown_pixels": 200,
+      "policy_unknown_pixels": 308
+    },
+    {
+      "sample_id": "single__S_EF003_A_001__scene_000001__EF_003",
+      "instance_pixels": 21380,
+      "part_unknown_pixels": 164,
+      "policy_unknown_pixels": 303
+    },
+    {
+      "sample_id": "single__S_EF003_A_001__scene_000002__EF_003",
+      "instance_pixels": 21211,
+      "part_unknown_pixels": 259,
+      "policy_unknown_pixels": 242
+    },
+    {
+      "sample_id": "single__S_EF003_A_001__scene_000003__EF_003",
+      "instance_pixels": 21020,
+      "part_unknown_pixels": 168,
+      "policy_unknown_pixels": 218
+    },
+    {
+      "sample_id": "single__S_EF003_A_001__scene_000004__EF_003",
+      "instance_pixels": 21022,
+      "part_unknown_pixels": 202,
+      "policy_unknown_pixels": 149
+    },
+    {
+      "sample_id": "single__S_EF003_A_001__scene_000005__EF_003",
+      "instance_pixels": 20618,
+      "part_unknown_pixels": 134,
+      "policy_unknown_pixels": 162
+    },
+    {
+      "sample_id": "single__S_EF003_A_001__scene_000006__EF_003",
+      "instance_pixels": 20708,
+      "part_unknown_pixels": 230,
+      "policy_unknown_pixels": 212
+    },
+    {
+      "sample_id": "single__S_EF003_A_001__scene_000007__EF_003",
+      "instance_pixels": 20472,
+      "part_unknown_pixels": 138,
+      "policy_unknown_pixels": 112
+    },
+    {
+      "sample_id": "single__S_EF003_A_001__scene_000008__EF_003",
+      "instance_pixels": 23133,
+      "part_unknown_pixels": 244,
+      "policy_unknown_pixels": 216
+    },
+    {
+      "sample_id": "single__S_EF003_B_FAR_HIGH_001__scene_000001__EF_003",
+      "instance_pixels": 6161,
+      "part_unknown_pixels": 112,
+      "policy_unknown_pixels": 105
+    },
+    {
+      "sample_id": "single__S_EF003_B_FAR_LOW_001__scene_000001__EF_003",
+      "instance_pixels": 12948,
+      "part_unknown_pixels": 311,
+      "policy_unknown_pixels": 496
+    },
+    {
+      "sample_id": "single__S_EF003_B_NEAR_HIGH_001__scene_000001__EF_003",
+      "instance_pixels": 41608,
+      "part_unknown_pixels": 272,
+      "policy_unknown_pixels": 290
+    },
+    {
+      "sample_id": "single__S_EF003_B_NEAR_LOW_001__scene_000001__EF_003",
+      "instance_pixels": 50731,
+      "part_unknown_pixels": 372,
+      "policy_unknown_pixels": 142
+    },
+    {
+      "sample_id": "single__S_EF003_C_001__scene_000001__EF_003",
+      "instance_pixels": 37427,
+      "part_unknown_pixels": 450,
+      "policy_unknown_pixels": 338
+    },
+    {
+      "sample_id": "single__S_EF004_A_001__scene_000001__EF_004",
+      "instance_pixels": 23852,
+      "part_unknown_pixels": 152,
+      "policy_unknown_pixels": 272
+    },
+    {
+      "sample_id": "single__S_EF004_A_001__scene_000002__EF_004",
+      "instance_pixels": 23631,
+      "part_unknown_pixels": 90,
+      "policy_unknown_pixels": 152
+    },
+    {
+      "sample_id": "single__S_EF004_A_001__scene_000003__EF_004",
+      "instance_pixels": 23827,
+      "part_unknown_pixels": 32,
+      "policy_unknown_pixels": 127
+    },
+    {
+      "sample_id": "single__S_EF004_A_001__scene_000004__EF_004",
+      "instance_pixels": 23687,
+      "part_unknown_pixels": 173,
+      "policy_unknown_pixels": 3
+    },
+    {
+      "sample_id": "single__S_EF004_A_001__scene_000005__EF_004",
+      "instance_pixels": 24011,
+      "part_unknown_pixels": 149,
+      "policy_unknown_pixels": 177
+    },
+    {
+      "sample_id": "single__S_EF004_A_001__scene_000006__EF_004",
+      "instance_pixels": 23456,
+      "part_unknown_pixels": 130,
+      "policy_unknown_pixels": 42
+    },
+    {
+      "sample_id": "single__S_EF004_A_001__scene_000007__EF_004",
+      "instance_pixels": 23113,
+      "part_unknown_pixels": 214,
+      "policy_unknown_pixels": 45
+    },
+    {
+      "sample_id": "single__S_EF004_A_001__scene_000008__EF_004",
+      "instance_pixels": 23219,
+      "part_unknown_pixels": 240,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_EF004_B_FAR_HIGH_001__scene_000001__EF_004",
+      "instance_pixels": 6623,
+      "part_unknown_pixels": 59,
+      "policy_unknown_pixels": 2
+    },
+    {
+      "sample_id": "single__S_EF004_B_FAR_LOW_001__scene_000001__EF_004",
+      "instance_pixels": 12778,
+      "part_unknown_pixels": 35,
+      "policy_unknown_pixels": 4
+    },
+    {
+      "sample_id": "single__S_EF004_B_NEAR_HIGH_001__scene_000001__EF_004",
+      "instance_pixels": 37926,
+      "part_unknown_pixels": 28,
+      "policy_unknown_pixels": 3
+    },
+    {
+      "sample_id": "single__S_EF004_B_NEAR_LOW_001__scene_000001__EF_004",
+      "instance_pixels": 58511,
+      "part_unknown_pixels": 245,
+      "policy_unknown_pixels": 15
+    },
+    {
+      "sample_id": "single__S_EF004_C_001__scene_000001__EF_004",
+      "instance_pixels": 33872,
+      "part_unknown_pixels": 76,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_EF005_A_001__scene_000001__EF_005",
+      "instance_pixels": 23521,
+      "part_unknown_pixels": 34,
+      "policy_unknown_pixels": 12
+    },
+    {
+      "sample_id": "single__S_EF005_A_001__scene_000002__EF_005",
+      "instance_pixels": 23489,
+      "part_unknown_pixels": 30,
+      "policy_unknown_pixels": 7
+    },
+    {
+      "sample_id": "single__S_EF005_A_001__scene_000003__EF_005",
+      "instance_pixels": 23271,
+      "part_unknown_pixels": 21,
+      "policy_unknown_pixels": 4
+    },
+    {
+      "sample_id": "single__S_EF005_A_001__scene_000004__EF_005",
+      "instance_pixels": 23008,
+      "part_unknown_pixels": 18,
+      "policy_unknown_pixels": 5
+    },
+    {
+      "sample_id": "single__S_EF005_A_001__scene_000005__EF_005",
+      "instance_pixels": 22520,
+      "part_unknown_pixels": 57,
+      "policy_unknown_pixels": 4
+    },
+    {
+      "sample_id": "single__S_EF005_A_001__scene_000006__EF_005",
+      "instance_pixels": 22304,
+      "part_unknown_pixels": 39,
+      "policy_unknown_pixels": 3
+    },
+    {
+      "sample_id": "single__S_EF005_A_001__scene_000007__EF_005",
+      "instance_pixels": 22318,
+      "part_unknown_pixels": 15,
+      "policy_unknown_pixels": 15
+    },
+    {
+      "sample_id": "single__S_EF005_A_001__scene_000008__EF_005",
+      "instance_pixels": 22432,
+      "part_unknown_pixels": 45,
+      "policy_unknown_pixels": 8
+    },
+    {
+      "sample_id": "single__S_EF005_B_FAR_HIGH_001__scene_000001__EF_005",
+      "instance_pixels": 6867,
+      "part_unknown_pixels": 10,
+      "policy_unknown_pixels": 2
+    },
+    {
+      "sample_id": "single__S_EF005_B_FAR_LOW_001__scene_000001__EF_005",
+      "instance_pixels": 12438,
+      "part_unknown_pixels": 10,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_EF005_B_NEAR_HIGH_001__scene_000001__EF_005",
+      "instance_pixels": 37935,
+      "part_unknown_pixels": 58,
+      "policy_unknown_pixels": 24
+    },
+    {
+      "sample_id": "single__S_EF005_B_NEAR_LOW_001__scene_000001__EF_005",
+      "instance_pixels": 43831,
+      "part_unknown_pixels": 22,
+      "policy_unknown_pixels": 28
+    },
+    {
+      "sample_id": "single__S_EF005_C_001__scene_000001__EF_005",
+      "instance_pixels": 32702,
+      "part_unknown_pixels": 68,
+      "policy_unknown_pixels": 3
+    },
+    {
+      "sample_id": "single__S_GC001_A_001__scene_000001__GC_001",
+      "instance_pixels": 20406,
+      "part_unknown_pixels": 55,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC001_A_001__scene_000002__GC_001",
+      "instance_pixels": 19849,
+      "part_unknown_pixels": 20,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC001_A_001__scene_000003__GC_001",
+      "instance_pixels": 20734,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC001_A_001__scene_000004__GC_001",
+      "instance_pixels": 21241,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC001_A_001__scene_000005__GC_001",
+      "instance_pixels": 21214,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC001_A_001__scene_000006__GC_001",
+      "instance_pixels": 22536,
+      "part_unknown_pixels": 11,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC001_A_001__scene_000007__GC_001",
+      "instance_pixels": 22130,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC001_A_001__scene_000008__GC_001",
+      "instance_pixels": 21760,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC001_B_FAR_LOW_001__scene_000001__GC_001",
+      "instance_pixels": 6668,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC001_B_NEAR_HIGH_001__scene_000001__GC_001",
+      "instance_pixels": 16342,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC001_C_LAB_BENCH_001__scene_000001__GC_001",
+      "instance_pixels": 9496,
+      "part_unknown_pixels": 4,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC002_A_001__scene_000001__GC_002",
+      "instance_pixels": 18686,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC002_A_001__scene_000002__GC_002",
+      "instance_pixels": 18554,
+      "part_unknown_pixels": 20,
+      "policy_unknown_pixels": 33
+    },
+    {
+      "sample_id": "single__S_GC002_A_001__scene_000003__GC_002",
+      "instance_pixels": 18207,
+      "part_unknown_pixels": 8,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC002_A_001__scene_000004__GC_002",
+      "instance_pixels": 17698,
+      "part_unknown_pixels": 18,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC002_A_001__scene_000005__GC_002",
+      "instance_pixels": 16645,
+      "part_unknown_pixels": 25,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC002_A_001__scene_000006__GC_002",
+      "instance_pixels": 18018,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC002_A_001__scene_000007__GC_002",
+      "instance_pixels": 18445,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC002_A_001__scene_000008__GC_002",
+      "instance_pixels": 19347,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC002_B_FAR_LOW_001__scene_000001__GC_002",
+      "instance_pixels": 11684,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC002_B_NEAR_HIGH_001__scene_000001__GC_002",
+      "instance_pixels": 13246,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC002_C_LAB_BENCH_001__scene_000001__GC_002",
+      "instance_pixels": 17007,
+      "part_unknown_pixels": 4,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC003_A_001__scene_000001__GC_003",
+      "instance_pixels": 15195,
+      "part_unknown_pixels": 12,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC003_A_001__scene_000002__GC_003",
+      "instance_pixels": 14871,
+      "part_unknown_pixels": 4,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC003_A_001__scene_000003__GC_003",
+      "instance_pixels": 13878,
+      "part_unknown_pixels": 17,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC003_A_001__scene_000004__GC_003",
+      "instance_pixels": 14786,
+      "part_unknown_pixels": 4,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC003_A_001__scene_000005__GC_003",
+      "instance_pixels": 14748,
+      "part_unknown_pixels": 4,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC003_A_001__scene_000006__GC_003",
+      "instance_pixels": 14662,
+      "part_unknown_pixels": 9,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC003_A_001__scene_000007__GC_003",
+      "instance_pixels": 14350,
+      "part_unknown_pixels": 2,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC003_A_001__scene_000008__GC_003",
+      "instance_pixels": 15478,
+      "part_unknown_pixels": 13,
+      "policy_unknown_pixels": 1147
+    },
+    {
+      "sample_id": "single__S_GC003_B_FAR_LOW_001__scene_000001__GC_003",
+      "instance_pixels": 9191,
+      "part_unknown_pixels": 49,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC003_B_NEAR_HIGH_001__scene_000001__GC_003",
+      "instance_pixels": 18560,
+      "part_unknown_pixels": 56,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC003_C_LAB_BENCH_001__scene_000001__GC_003",
+      "instance_pixels": 12701,
+      "part_unknown_pixels": 14,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC004_A_001__scene_000001__GC_004",
+      "instance_pixels": 16937,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC004_A_001__scene_000002__GC_004",
+      "instance_pixels": 16943,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC004_A_001__scene_000003__GC_004",
+      "instance_pixels": 16311,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC004_A_001__scene_000004__GC_004",
+      "instance_pixels": 16251,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC004_A_001__scene_000005__GC_004",
+      "instance_pixels": 16091,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC004_A_001__scene_000006__GC_004",
+      "instance_pixels": 16041,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_GC004_A_001__scene_000007__GC_004",
+      "instance_pixels": 16443,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 196
+    },
+    {
+      "sample_id": "single__S_GC004_A_001__scene_000008__GC_004",
+      "instance_pixels": 17537,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC004_B_FAR_LOW_001__scene_000001__GC_004",
+      "instance_pixels": 11996,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC004_B_NEAR_HIGH_001__scene_000001__GC_004",
+      "instance_pixels": 12199,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_GC004_C_LAB_BENCH_001__scene_000001__GC_004",
+      "instance_pixels": 14219,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF001_A_001__scene_000001__PF_001",
+      "instance_pixels": 31893,
+      "part_unknown_pixels": 13,
+      "policy_unknown_pixels": 9
+    },
+    {
+      "sample_id": "single__S_PF001_A_001__scene_000002__PF_001",
+      "instance_pixels": 32030,
+      "part_unknown_pixels": 39,
+      "policy_unknown_pixels": 13
+    },
+    {
+      "sample_id": "single__S_PF001_A_001__scene_000003__PF_001",
+      "instance_pixels": 31949,
+      "part_unknown_pixels": 17,
+      "policy_unknown_pixels": 7
+    },
+    {
+      "sample_id": "single__S_PF001_A_001__scene_000004__PF_001",
+      "instance_pixels": 31967,
+      "part_unknown_pixels": 30,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_PF001_A_001__scene_000005__PF_001",
+      "instance_pixels": 31458,
+      "part_unknown_pixels": 33,
+      "policy_unknown_pixels": 12
+    },
+    {
+      "sample_id": "single__S_PF001_A_001__scene_000006__PF_001",
+      "instance_pixels": 30971,
+      "part_unknown_pixels": 48,
+      "policy_unknown_pixels": 11
+    },
+    {
+      "sample_id": "single__S_PF001_A_001__scene_000007__PF_001",
+      "instance_pixels": 31768,
+      "part_unknown_pixels": 35,
+      "policy_unknown_pixels": 20
+    },
+    {
+      "sample_id": "single__S_PF001_A_001__scene_000008__PF_001",
+      "instance_pixels": 32552,
+      "part_unknown_pixels": 34,
+      "policy_unknown_pixels": 4
+    },
+    {
+      "sample_id": "single__S_PF001_B_FAR_HIGH_001__scene_000001__PF_001",
+      "instance_pixels": 5138,
+      "part_unknown_pixels": 6,
+      "policy_unknown_pixels": 7
+    },
+    {
+      "sample_id": "single__S_PF001_B_NEAR_HIGH_001__scene_000001__PF_001",
+      "instance_pixels": 31097,
+      "part_unknown_pixels": 17,
+      "policy_unknown_pixels": 5
+    },
+    {
+      "sample_id": "single__S_PF001_B_NEAR_LOW_001__scene_000001__PF_001",
+      "instance_pixels": 29034,
+      "part_unknown_pixels": 38,
+      "policy_unknown_pixels": 6
+    },
+    {
+      "sample_id": "single__S_PF001_C_001__scene_000001__PF_001",
+      "instance_pixels": 10590,
+      "part_unknown_pixels": 12,
+      "policy_unknown_pixels": 3
+    },
+    {
+      "sample_id": "single__S_PF002_A_001__scene_000001__PF_002",
+      "instance_pixels": 46048,
+      "part_unknown_pixels": 29,
+      "policy_unknown_pixels": 25
+    },
+    {
+      "sample_id": "single__S_PF002_A_001__scene_000002__PF_002",
+      "instance_pixels": 46242,
+      "part_unknown_pixels": 57,
+      "policy_unknown_pixels": 9
+    },
+    {
+      "sample_id": "single__S_PF002_A_001__scene_000003__PF_002",
+      "instance_pixels": 44588,
+      "part_unknown_pixels": 48,
+      "policy_unknown_pixels": 5
+    },
+    {
+      "sample_id": "single__S_PF002_A_001__scene_000004__PF_002",
+      "instance_pixels": 42744,
+      "part_unknown_pixels": 22,
+      "policy_unknown_pixels": 11
+    },
+    {
+      "sample_id": "single__S_PF002_A_001__scene_000005__PF_002",
+      "instance_pixels": 42471,
+      "part_unknown_pixels": 29,
+      "policy_unknown_pixels": 12
+    },
+    {
+      "sample_id": "single__S_PF002_A_001__scene_000006__PF_002",
+      "instance_pixels": 41744,
+      "part_unknown_pixels": 53,
+      "policy_unknown_pixels": 9
+    },
+    {
+      "sample_id": "single__S_PF002_A_001__scene_000007__PF_002",
+      "instance_pixels": 41215,
+      "part_unknown_pixels": 56,
+      "policy_unknown_pixels": 7
+    },
+    {
+      "sample_id": "single__S_PF002_A_001__scene_000008__PF_002",
+      "instance_pixels": 41836,
+      "part_unknown_pixels": 21,
+      "policy_unknown_pixels": 13
+    },
+    {
+      "sample_id": "single__S_PF002_B_FAR_HIGH_001__scene_000001__PF_002",
+      "instance_pixels": 8552,
+      "part_unknown_pixels": 14,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF002_B_FAR_LOW_001__scene_000001__PF_002",
+      "instance_pixels": 15405,
+      "part_unknown_pixels": 7,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF002_B_NEAR_HIGH_001__scene_000001__PF_002",
+      "instance_pixels": 41416,
+      "part_unknown_pixels": 41,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF002_B_NEAR_LOW_001__scene_000001__PF_002",
+      "instance_pixels": 55013,
+      "part_unknown_pixels": 44,
+      "policy_unknown_pixels": 5
+    },
+    {
+      "sample_id": "single__S_PF002_C_001__scene_000001__PF_002",
+      "instance_pixels": 20396,
+      "part_unknown_pixels": 2,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF003_A_001__scene_000001__PF_003",
+      "instance_pixels": 20898,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF003_A_001__scene_000002__PF_003",
+      "instance_pixels": 20468,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF003_A_001__scene_000003__PF_003",
+      "instance_pixels": 19892,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF003_A_001__scene_000004__PF_003",
+      "instance_pixels": 20437,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF003_A_001__scene_000005__PF_003",
+      "instance_pixels": 20212,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF003_A_001__scene_000006__PF_003",
+      "instance_pixels": 20173,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF003_A_001__scene_000007__PF_003",
+      "instance_pixels": 20016,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF004_A_001__scene_000001__PF_004",
+      "instance_pixels": 16248,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF004_A_001__scene_000002__PF_004",
+      "instance_pixels": 16279,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF004_A_001__scene_000003__PF_004",
+      "instance_pixels": 15847,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF004_A_001__scene_000004__PF_004",
+      "instance_pixels": 16102,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF004_A_001__scene_000005__PF_004",
+      "instance_pixels": 16095,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 6
+    },
+    {
+      "sample_id": "single__S_PF004_A_001__scene_000006__PF_004",
+      "instance_pixels": 16322,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF004_A_001__scene_000007__PF_004",
+      "instance_pixels": 16639,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_PF004_A_001__scene_000008__PF_004",
+      "instance_pixels": 16276,
+      "part_unknown_pixels": 7,
+      "policy_unknown_pixels": 6
+    },
+    {
+      "sample_id": "single__S_RB001_A_001__scene_000001__RB_001",
+      "instance_pixels": 19091,
+      "part_unknown_pixels": 10,
+      "policy_unknown_pixels": 6
+    },
+    {
+      "sample_id": "single__S_RB001_A_001__scene_000002__RB_001",
+      "instance_pixels": 19403,
+      "part_unknown_pixels": 18,
+      "policy_unknown_pixels": 7
+    },
+    {
+      "sample_id": "single__S_RB001_A_001__scene_000003__RB_001",
+      "instance_pixels": 19155,
+      "part_unknown_pixels": 11,
+      "policy_unknown_pixels": 10
+    },
+    {
+      "sample_id": "single__S_RB001_A_001__scene_000004__RB_001",
+      "instance_pixels": 18694,
+      "part_unknown_pixels": 27,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_RB001_A_001__scene_000005__RB_001",
+      "instance_pixels": 17996,
+      "part_unknown_pixels": 13,
+      "policy_unknown_pixels": 7
+    },
+    {
+      "sample_id": "single__S_RB001_A_001__scene_000006__RB_001",
+      "instance_pixels": 18051,
+      "part_unknown_pixels": 21,
+      "policy_unknown_pixels": 6
+    },
+    {
+      "sample_id": "single__S_RB001_A_001__scene_000007__RB_001",
+      "instance_pixels": 18421,
+      "part_unknown_pixels": 53,
+      "policy_unknown_pixels": 5
+    },
+    {
+      "sample_id": "single__S_RB001_A_001__scene_000008__RB_001",
+      "instance_pixels": 18268,
+      "part_unknown_pixels": 46,
+      "policy_unknown_pixels": 9
+    },
+    {
+      "sample_id": "single__S_RB001_B_FAR_HIGH_001__scene_000001__RB_001",
+      "instance_pixels": 3427,
+      "part_unknown_pixels": 45,
+      "policy_unknown_pixels": 4
+    },
+    {
+      "sample_id": "single__S_RB001_B_FAR_LOW_001__scene_000001__RB_001",
+      "instance_pixels": 5604,
+      "part_unknown_pixels": 29,
+      "policy_unknown_pixels": 11
+    },
+    {
+      "sample_id": "single__S_RB001_B_NEAR_HIGH_001__scene_000001__RB_001",
+      "instance_pixels": 15176,
+      "part_unknown_pixels": 15,
+      "policy_unknown_pixels": 24
+    },
+    {
+      "sample_id": "single__S_RB001_B_NEAR_LOW_001__scene_000001__RB_001",
+      "instance_pixels": 22927,
+      "part_unknown_pixels": 7,
+      "policy_unknown_pixels": 4
+    },
+    {
+      "sample_id": "single__S_RB001_C_001__scene_000001__RB_001",
+      "instance_pixels": 12747,
+      "part_unknown_pixels": 27,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB002_A_001__scene_000001__RB_002",
+      "instance_pixels": 21318,
+      "part_unknown_pixels": 9,
+      "policy_unknown_pixels": 8
+    },
+    {
+      "sample_id": "single__S_RB002_A_001__scene_000002__RB_002",
+      "instance_pixels": 21376,
+      "part_unknown_pixels": 16,
+      "policy_unknown_pixels": 3
+    },
+    {
+      "sample_id": "single__S_RB002_A_001__scene_000003__RB_002",
+      "instance_pixels": 21153,
+      "part_unknown_pixels": 9,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB002_A_001__scene_000004__RB_002",
+      "instance_pixels": 20810,
+      "part_unknown_pixels": 13,
+      "policy_unknown_pixels": 3
+    },
+    {
+      "sample_id": "single__S_RB002_A_001__scene_000005__RB_002",
+      "instance_pixels": 20910,
+      "part_unknown_pixels": 9,
+      "policy_unknown_pixels": 14
+    },
+    {
+      "sample_id": "single__S_RB002_A_001__scene_000006__RB_002",
+      "instance_pixels": 20569,
+      "part_unknown_pixels": 24,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB002_A_001__scene_000007__RB_002",
+      "instance_pixels": 20674,
+      "part_unknown_pixels": 12,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_RB002_A_001__scene_000008__RB_002",
+      "instance_pixels": 20491,
+      "part_unknown_pixels": 6,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_RB002_B_FAR_HIGH_001__scene_000001__RB_002",
+      "instance_pixels": 3822,
+      "part_unknown_pixels": 6,
+      "policy_unknown_pixels": 2
+    },
+    {
+      "sample_id": "single__S_RB002_B_FAR_LOW_001__scene_000001__RB_002",
+      "instance_pixels": 7366,
+      "part_unknown_pixels": 8,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB002_B_NEAR_HIGH_001__scene_000001__RB_002",
+      "instance_pixels": 17179,
+      "part_unknown_pixels": 12,
+      "policy_unknown_pixels": 2
+    },
+    {
+      "sample_id": "single__S_RB002_B_NEAR_LOW_001__scene_000001__RB_002",
+      "instance_pixels": 34404,
+      "part_unknown_pixels": 60,
+      "policy_unknown_pixels": 11
+    },
+    {
+      "sample_id": "single__S_RB002_C_001__scene_000001__RB_002",
+      "instance_pixels": 15169,
+      "part_unknown_pixels": 2,
+      "policy_unknown_pixels": 3
+    },
+    {
+      "sample_id": "single__S_RB003_A_001__scene_000001__RB_003",
+      "instance_pixels": 30710,
+      "part_unknown_pixels": 12,
+      "policy_unknown_pixels": 7
+    },
+    {
+      "sample_id": "single__S_RB003_A_001__scene_000002__RB_003",
+      "instance_pixels": 32898,
+      "part_unknown_pixels": 25,
+      "policy_unknown_pixels": 8
+    },
+    {
+      "sample_id": "single__S_RB003_A_001__scene_000003__RB_003",
+      "instance_pixels": 29322,
+      "part_unknown_pixels": 11,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB003_A_001__scene_000004__RB_003",
+      "instance_pixels": 30658,
+      "part_unknown_pixels": 4,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_RB003_A_001__scene_000005__RB_003",
+      "instance_pixels": 27164,
+      "part_unknown_pixels": 19,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB003_A_001__scene_000006__RB_003",
+      "instance_pixels": 29062,
+      "part_unknown_pixels": 25,
+      "policy_unknown_pixels": 2
+    },
+    {
+      "sample_id": "single__S_RB003_A_001__scene_000007__RB_003",
+      "instance_pixels": 25238,
+      "part_unknown_pixels": 77,
+      "policy_unknown_pixels": 7
+    },
+    {
+      "sample_id": "single__S_RB003_A_001__scene_000008__RB_003",
+      "instance_pixels": 27383,
+      "part_unknown_pixels": 17,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB003_B_FAR_HIGH_001__scene_000001__RB_003",
+      "instance_pixels": 6954,
+      "part_unknown_pixels": 6,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_RB003_B_FAR_LOW_001__scene_000001__RB_003",
+      "instance_pixels": 11394,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB003_B_NEAR_HIGH_001__scene_000001__RB_003",
+      "instance_pixels": 33506,
+      "part_unknown_pixels": 46,
+      "policy_unknown_pixels": 25
+    },
+    {
+      "sample_id": "single__S_RB003_B_NEAR_LOW_001__scene_000001__RB_003",
+      "instance_pixels": 45703,
+      "part_unknown_pixels": 1,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_RB003_C_001__scene_000001__RB_003",
+      "instance_pixels": 28552,
+      "part_unknown_pixels": 15,
+      "policy_unknown_pixels": 5
+    },
+    {
+      "sample_id": "single__S_RB004_A_001__scene_000001__RB_004",
+      "instance_pixels": 32809,
+      "part_unknown_pixels": 24,
+      "policy_unknown_pixels": 17
+    },
+    {
+      "sample_id": "single__S_RB004_A_001__scene_000002__RB_004",
+      "instance_pixels": 32961,
+      "part_unknown_pixels": 23,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB004_A_001__scene_000003__RB_004",
+      "instance_pixels": 32782,
+      "part_unknown_pixels": 5,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB004_A_001__scene_000004__RB_004",
+      "instance_pixels": 32764,
+      "part_unknown_pixels": 38,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_RB004_A_001__scene_000006__RB_004",
+      "instance_pixels": 32750,
+      "part_unknown_pixels": 34,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_RB004_A_001__scene_000007__RB_004",
+      "instance_pixels": 32580,
+      "part_unknown_pixels": 14,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_RB004_A_001__scene_000008__RB_004",
+      "instance_pixels": 32454,
+      "part_unknown_pixels": 11,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_RB004_B_FAR_HIGH_001__scene_000001__RB_004",
+      "instance_pixels": 14259,
+      "part_unknown_pixels": 3,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB004_B_FAR_LOW_001__scene_000001__RB_004",
+      "instance_pixels": 19180,
+      "part_unknown_pixels": 96,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB004_B_NEAR_HIGH_001__scene_000001__RB_004",
+      "instance_pixels": 53596,
+      "part_unknown_pixels": 89,
+      "policy_unknown_pixels": 29
+    },
+    {
+      "sample_id": "single__S_RB004_B_NEAR_LOW_001__scene_000001__RB_004",
+      "instance_pixels": 50227,
+      "part_unknown_pixels": 3,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB004_C_001__scene_000001__RB_004",
+      "instance_pixels": 40216,
+      "part_unknown_pixels": 2,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_RB005_A_001__scene_000001__RB_005",
+      "instance_pixels": 35873,
+      "part_unknown_pixels": 59,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_RB005_A_001__scene_000002__RB_005",
+      "instance_pixels": 36668,
+      "part_unknown_pixels": 16,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB005_A_001__scene_000003__RB_005",
+      "instance_pixels": 37185,
+      "part_unknown_pixels": 29,
+      "policy_unknown_pixels": 7
+    },
+    {
+      "sample_id": "single__S_RB005_A_001__scene_000004__RB_005",
+      "instance_pixels": 37369,
+      "part_unknown_pixels": 11,
+      "policy_unknown_pixels": 2
+    },
+    {
+      "sample_id": "single__S_RB005_A_001__scene_000005__RB_005",
+      "instance_pixels": 37437,
+      "part_unknown_pixels": 49,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_RB005_A_001__scene_000006__RB_005",
+      "instance_pixels": 38052,
+      "part_unknown_pixels": 2,
+      "policy_unknown_pixels": 2
+    },
+    {
+      "sample_id": "single__S_RB005_A_001__scene_000007__RB_005",
+      "instance_pixels": 39043,
+      "part_unknown_pixels": 2,
+      "policy_unknown_pixels": 11
+    },
+    {
+      "sample_id": "single__S_RB005_B_FAR_LOW_001__scene_000001__RB_005",
+      "instance_pixels": 8647,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 2
+    },
+    {
+      "sample_id": "single__S_RB005_B_NEAR_HIGH_001__scene_000001__RB_005",
+      "instance_pixels": 27800,
+      "part_unknown_pixels": 23,
+      "policy_unknown_pixels": 11
+    },
+    {
+      "sample_id": "single__S_RB005_C_LAB_BENCH_001__scene_000001__RB_005",
+      "instance_pixels": 11810,
+      "part_unknown_pixels": 3,
+      "policy_unknown_pixels": 2
+    },
+    {
+      "sample_id": "single__S_TT001_A_001__scene_000001__TT_001",
+      "instance_pixels": 10207,
+      "part_unknown_pixels": 12,
+      "policy_unknown_pixels": 7
+    },
+    {
+      "sample_id": "single__S_TT001_A_001__scene_000002__TT_001",
+      "instance_pixels": 9613,
+      "part_unknown_pixels": 5,
+      "policy_unknown_pixels": 30
+    },
+    {
+      "sample_id": "single__S_TT001_A_001__scene_000003__TT_001",
+      "instance_pixels": 10283,
+      "part_unknown_pixels": 19,
+      "policy_unknown_pixels": 2
+    },
+    {
+      "sample_id": "single__S_TT001_A_001__scene_000004__TT_001",
+      "instance_pixels": 9342,
+      "part_unknown_pixels": 19,
+      "policy_unknown_pixels": 8
+    },
+    {
+      "sample_id": "single__S_TT001_A_001__scene_000005__TT_001",
+      "instance_pixels": 8385,
+      "part_unknown_pixels": 14,
+      "policy_unknown_pixels": 2
+    },
+    {
+      "sample_id": "single__S_TT001_A_001__scene_000006__TT_001",
+      "instance_pixels": 8636,
+      "part_unknown_pixels": 8,
+      "policy_unknown_pixels": 8
+    },
+    {
+      "sample_id": "single__S_TT001_A_001__scene_000007__TT_001",
+      "instance_pixels": 9551,
+      "part_unknown_pixels": 6,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_TT001_A_001__scene_000008__TT_001",
+      "instance_pixels": 9344,
+      "part_unknown_pixels": 9,
+      "policy_unknown_pixels": 2
+    },
+    {
+      "sample_id": "single__S_TT002_A_001__scene_000001__TT_002",
+      "instance_pixels": 1710,
+      "part_unknown_pixels": 50,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT002_A_001__scene_000002__TT_002",
+      "instance_pixels": 1646,
+      "part_unknown_pixels": 1,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_TT002_A_001__scene_000003__TT_002",
+      "instance_pixels": 2006,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT002_A_001__scene_000004__TT_002",
+      "instance_pixels": 1715,
+      "part_unknown_pixels": 1,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT002_A_001__scene_000005__TT_002",
+      "instance_pixels": 1311,
+      "part_unknown_pixels": 2,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT002_A_001__scene_000006__TT_002",
+      "instance_pixels": 2273,
+      "part_unknown_pixels": 4,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT002_A_001__scene_000007__TT_002",
+      "instance_pixels": 2202,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 1
+    },
+    {
+      "sample_id": "single__S_TT002_A_001__scene_000008__TT_002",
+      "instance_pixels": 1538,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 3
+    },
+    {
+      "sample_id": "single__S_TT003_A_001__scene_000001__TT_003",
+      "instance_pixels": 7033,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT003_A_001__scene_000002__TT_003",
+      "instance_pixels": 8035,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT003_A_001__scene_000003__TT_003",
+      "instance_pixels": 6744,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT003_A_001__scene_000004__TT_003",
+      "instance_pixels": 6568,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT003_A_001__scene_000005__TT_003",
+      "instance_pixels": 6631,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT003_A_001__scene_000006__TT_003",
+      "instance_pixels": 7352,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT003_A_001__scene_000007__TT_003",
+      "instance_pixels": 6954,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT003_A_001__scene_000008__TT_003",
+      "instance_pixels": 6727,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT004_A_001__scene_000001__TT_004",
+      "instance_pixels": 2713,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT004_A_001__scene_000002__TT_004",
+      "instance_pixels": 2894,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT004_A_001__scene_000003__TT_004",
+      "instance_pixels": 2814,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT004_A_001__scene_000004__TT_004",
+      "instance_pixels": 2421,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT004_A_001__scene_000005__TT_004",
+      "instance_pixels": 2808,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT004_A_001__scene_000006__TT_004",
+      "instance_pixels": 3185,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT004_A_001__scene_000007__TT_004",
+      "instance_pixels": 2563,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT005_A_001__scene_000001__TT_005",
+      "instance_pixels": 4735,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT005_A_001__scene_000002__TT_005",
+      "instance_pixels": 4520,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT005_A_001__scene_000003__TT_005",
+      "instance_pixels": 4216,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT005_A_001__scene_000004__TT_005",
+      "instance_pixels": 3578,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT005_A_001__scene_000005__TT_005",
+      "instance_pixels": 3178,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT005_A_001__scene_000006__TT_005",
+      "instance_pixels": 3649,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT005_A_001__scene_000007__TT_005",
+      "instance_pixels": 4121,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_TT005_A_001__scene_000008__TT_005",
+      "instance_pixels": 4658,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF001_A_001__scene_000001__VF_001",
+      "instance_pixels": 21901,
+      "part_unknown_pixels": 362,
+      "policy_unknown_pixels": 403
+    },
+    {
+      "sample_id": "single__S_VF001_A_001__scene_000002__VF_001",
+      "instance_pixels": 20370,
+      "part_unknown_pixels": 327,
+      "policy_unknown_pixels": 197
+    },
+    {
+      "sample_id": "single__S_VF001_A_001__scene_000003__VF_001",
+      "instance_pixels": 19959,
+      "part_unknown_pixels": 372,
+      "policy_unknown_pixels": 360
+    },
+    {
+      "sample_id": "single__S_VF001_A_001__scene_000004__VF_001",
+      "instance_pixels": 19569,
+      "part_unknown_pixels": 317,
+      "policy_unknown_pixels": 283
+    },
+    {
+      "sample_id": "single__S_VF001_A_001__scene_000005__VF_001",
+      "instance_pixels": 19256,
+      "part_unknown_pixels": 217,
+      "policy_unknown_pixels": 254
+    },
+    {
+      "sample_id": "single__S_VF001_A_001__scene_000006__VF_001",
+      "instance_pixels": 18795,
+      "part_unknown_pixels": 188,
+      "policy_unknown_pixels": 205
+    },
+    {
+      "sample_id": "single__S_VF001_A_001__scene_000007__VF_001",
+      "instance_pixels": 18406,
+      "part_unknown_pixels": 201,
+      "policy_unknown_pixels": 270
+    },
+    {
+      "sample_id": "single__S_VF001_B_FAR_HIGH_001__scene_000001__VF_001",
+      "instance_pixels": 8297,
+      "part_unknown_pixels": 212,
+      "policy_unknown_pixels": 174
+    },
+    {
+      "sample_id": "single__S_VF001_B_NEAR_HIGH_001__scene_000001__VF_001",
+      "instance_pixels": 14073,
+      "part_unknown_pixels": 232,
+      "policy_unknown_pixels": 220
+    },
+    {
+      "sample_id": "single__S_VF001_B_NEAR_LOW_001__scene_000001__VF_001",
+      "instance_pixels": 25240,
+      "part_unknown_pixels": 401,
+      "policy_unknown_pixels": 248
+    },
+    {
+      "sample_id": "single__S_VF001_C_001__scene_000001__VF_001",
+      "instance_pixels": 20972,
+      "part_unknown_pixels": 365,
+      "policy_unknown_pixels": 256
+    },
+    {
+      "sample_id": "single__S_VF002_A_001__scene_000001__VF_002",
+      "instance_pixels": 14334,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF002_A_001__scene_000002__VF_002",
+      "instance_pixels": 14361,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF002_A_001__scene_000003__VF_002",
+      "instance_pixels": 14633,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF002_A_001__scene_000004__VF_002",
+      "instance_pixels": 14392,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF002_A_001__scene_000005__VF_002",
+      "instance_pixels": 14058,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF002_A_001__scene_000006__VF_002",
+      "instance_pixels": 14099,
+      "part_unknown_pixels": 2,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF002_A_001__scene_000007__VF_002",
+      "instance_pixels": 14462,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF002_A_001__scene_000008__VF_002",
+      "instance_pixels": 14364,
+      "part_unknown_pixels": 2,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF002_B_FAR_LOW_001__scene_000001__VF_002",
+      "instance_pixels": 6450,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF002_B_NEAR_HIGH_001__scene_000001__VF_002",
+      "instance_pixels": 18660,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF002_C_LAB_BENCH_001__scene_000001__VF_002",
+      "instance_pixels": 8391,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF003_A_001__scene_000001__VF_003",
+      "instance_pixels": 23375,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF003_A_001__scene_000002__VF_003",
+      "instance_pixels": 23308,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF003_A_001__scene_000003__VF_003",
+      "instance_pixels": 25854,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF003_A_001__scene_000004__VF_003",
+      "instance_pixels": 26560,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF003_A_001__scene_000005__VF_003",
+      "instance_pixels": 26011,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF003_A_001__scene_000006__VF_003",
+      "instance_pixels": 25146,
+      "part_unknown_pixels": 3,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF003_A_001__scene_000007__VF_003",
+      "instance_pixels": 25474,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF003_A_001__scene_000008__VF_003",
+      "instance_pixels": 26157,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF003_B_FAR_LOW_001__scene_000001__VF_003",
+      "instance_pixels": 3847,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF003_B_NEAR_HIGH_001__scene_000001__VF_003",
+      "instance_pixels": 8068,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    },
+    {
+      "sample_id": "single__S_VF003_C_LAB_BENCH_001__scene_000001__VF_003",
+      "instance_pixels": 4920,
+      "part_unknown_pixels": 0,
+      "policy_unknown_pixels": 0
+    }
+  ],
+  "limitations": [
+    "非逐图人工语义复审",
+    "raw depth 不是表面真值",
+    "test 已用于开发验收",
+    "multi_test 是已见实物的新布局",
+    "少量原实例边界重叠保留，不自动重画"
+  ]
+}
