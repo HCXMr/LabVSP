@@ -1,0 +1,12 @@
+{
+  "source_dataset_name": "LabGlass Visible-Only RC2.2",
+  "source_snapshot_name": "retrain_20260920_20train5test_v1",
+  "source_manifest_sha256": "097fb2b83942af52e360ead7eb7df00943bfda40c850564881fb6e49403a4351",
+  "export_version": "0.1.0-draft",
+  "image_and_array_transform": "none; independent byte-identical copies",
+  "metadata_transform": "relative paths; remove account identifiers; capture fields only; historical review kept separately",
+  "raw_sources_compared": true,
+  "raw_snapshot_difference_count": 0,
+  "release_version": "1.0.0",
+  "release_changes": "Publication metadata, licenses, citations and presentation assets only; all data payload bytes and split memberships are unchanged."
+}

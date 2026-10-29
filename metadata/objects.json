@@ -1,0 +1,1262 @@
+[
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "BK_001",
+    "category_id": 1,
+    "category": "beaker",
+    "nominal_name": "beaker_001",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": 0.07025,
+      "maximum_outer_diameter": 0.06211,
+      "bottom_outer_diameter": 0.04346,
+      "rim_outer_diameter": 0.06211,
+      "mouth_inner_diameter": 0.05736,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 1,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "Visible-Only dataset. Measured once with caliper. Body outer diameter measured as 0.05330 m. Derived rim radial thickness from rim OD and mouth ID is approximately 0.002375 m; this value is not used as wall_thickness. CASP, complete profile_rz and metric mesh are not used in the main pipeline.",
+    "created_at_utc": "2026-08-17T10:16:31.535Z",
+    "split": "val"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "BK_002",
+    "category_id": 1,
+    "category": "beaker",
+    "nominal_name": "beaker_002",
+    "material_family": "transparent_glass",
+    "capacity_ml": 500,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": 0.1495,
+      "maximum_outer_diameter": 0.09017,
+      "bottom_outer_diameter": 0.06,
+      "rim_outer_diameter": 0.09017,
+      "mouth_inner_diameter": 0.0827,
+      "wall_thickness": 0.003,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": true,
+      "has_logo_or_text": true,
+      "has_spout": true,
+      "has_cap_or_stop": false,
+      "has_handle": false
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 1,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "Visible-Only dataset. Measured once with caliper. Wall thickness recorded as 0.00300 m. Bottom thickness unknown and kept null. CASP, complete profile_rz and metric mesh are not used in the main pipeline.",
+    "created_at_utc": "2026-08-19T03:42:37.843Z",
+    "split": "test"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "BK_003",
+    "category_id": 1,
+    "category": "beaker",
+    "nominal_name": "BK_003",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T09:06:00.543Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "BK_004",
+    "category_id": 1,
+    "category": "beaker",
+    "nominal_name": "BK_004",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T09:06:51.669Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "EF_001",
+    "category_id": 2,
+    "category": "erlenmeyer_flask",
+    "nominal_name": "erlenmeyer_flask_001",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-22T11:49:34.722Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "EF_002",
+    "category_id": 2,
+    "category": "erlenmeyer_flask",
+    "nominal_name": "erlenmeyer_flask_002",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-22T12:01:30.408Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "EF_003",
+    "category_id": 2,
+    "category": "erlenmeyer_flask",
+    "nominal_name": "erlenmeyer_flask_003",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-22T12:09:27.868Z",
+    "split": "test"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "EF_004",
+    "category_id": 2,
+    "category": "erlenmeyer_flask",
+    "nominal_name": "erlenmeyer_flask_004",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-22T12:15:53.893Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "EF_005",
+    "category_id": 2,
+    "category": "erlenmeyer_flask",
+    "nominal_name": "erlenmeyer_flask_005",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-22T12:24:04.074Z",
+    "split": "val"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "GC_001",
+    "category_id": 4,
+    "category": "graduated_cylinder",
+    "nominal_name": "GC_001",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T09:10:17.908Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "GC_002",
+    "category_id": 4,
+    "category": "graduated_cylinder",
+    "nominal_name": "GC_002",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T09:11:40.618Z",
+    "split": "test"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "GC_003",
+    "category_id": 4,
+    "category": "graduated_cylinder",
+    "nominal_name": "GC_003",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T09:12:26.605Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "GC_004",
+    "category_id": 4,
+    "category": "graduated_cylinder",
+    "nominal_name": "GC_004",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T09:13:18.370Z",
+    "split": "val"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "PF_001",
+    "category_id": 7,
+    "category": "plain_mouth_flask",
+    "nominal_name": "plain_mouth_flask_001",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-23T03:27:14.863Z",
+    "split": "val"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "PF_002",
+    "category_id": 7,
+    "category": "plain_mouth_flask",
+    "nominal_name": "plain_mouth_flask_002",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-23T03:28:41.500Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "PF_003",
+    "category_id": 7,
+    "category": "plain_mouth_flask",
+    "nominal_name": "PF_003",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T09:18:28.184Z",
+    "split": "test"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "PF_004",
+    "category_id": 7,
+    "category": "plain_mouth_flask",
+    "nominal_name": "PF_004",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T09:19:01.652Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "RB_001",
+    "category_id": 3,
+    "category": "reagent_bottle",
+    "nominal_name": "reagent_bottle_001",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz_round_only",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-23T04:55:15.958Z",
+    "split": "val"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "RB_002",
+    "category_id": 3,
+    "category": "reagent_bottle",
+    "nominal_name": "reagent_bottle_002",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz_round_only",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-23T04:55:29.123Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "RB_003",
+    "category_id": 3,
+    "category": "reagent_bottle",
+    "nominal_name": "reagent_bottle_003",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz_round_only",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-23T04:55:38.349Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "RB_004",
+    "category_id": 3,
+    "category": "reagent_bottle",
+    "nominal_name": "reagent_bottle_004",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz_round_only",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-23T04:55:46.210Z",
+    "split": "test"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "RB_005",
+    "category_id": 3,
+    "category": "reagent_bottle",
+    "nominal_name": "RB_005",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz_round_only",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T09:09:23.351Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "TT_001",
+    "category_id": 5,
+    "category": "test_tube",
+    "nominal_name": "test_tube_001",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-23T05:49:32.768Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "TT_002",
+    "category_id": 5,
+    "category": "test_tube",
+    "nominal_name": "test_tube_002",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-23T05:51:12.038Z",
+    "split": "test"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "TT_003",
+    "category_id": 5,
+    "category": "test_tube",
+    "nominal_name": "TT_003",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T09:15:05.669Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "TT_004",
+    "category_id": 5,
+    "category": "test_tube",
+    "nominal_name": "TT_004",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T09:15:32.182Z",
+    "split": "val"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "TT_005",
+    "category_id": 5,
+    "category": "test_tube",
+    "nominal_name": "TT_005",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T09:19:56.612Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "VF_001",
+    "category_id": 6,
+    "category": "volumetric_flask",
+    "nominal_name": "volumetric_flask_001",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-08-23T03:22:20.365Z",
+    "split": "test"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "VF_002",
+    "category_id": 6,
+    "category": "volumetric_flask",
+    "nominal_name": "VF_002",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T08:59:50.933Z",
+    "split": "train"
+  },
+  {
+    "schema_version": "labglass.object.v2",
+    "object_id": "VF_003",
+    "category_id": 6,
+    "category": "volumetric_flask",
+    "nominal_name": "VF_003",
+    "material_family": "transparent_glass",
+    "capacity_ml": null,
+    "status": "registered_measurements_pending",
+    "dimensions_m": {
+      "total_height": null,
+      "maximum_outer_diameter": null,
+      "bottom_outer_diameter": null,
+      "rim_outer_diameter": null,
+      "mouth_inner_diameter": null,
+      "wall_thickness": null,
+      "bottom_thickness": null
+    },
+    "markings": {
+      "has_scale_print": null,
+      "has_logo_or_text": null,
+      "has_spout": null,
+      "has_cap_or_stop": null,
+      "has_handle": null
+    },
+    "canonical_object_frame": {
+      "origin": "bottom_support_plane_center",
+      "positive_z": "base_to_mouth",
+      "positive_x": "repeatable_structural_zero_direction",
+      "unit": "m"
+    },
+    "measurement_policy": {
+      "repeat_count": 3,
+      "unknown_value": null,
+      "silent_inference_forbidden": true
+    },
+    "casp_family": "axisymmetric_rz",
+    "online_test_mesh_use_allowed": false,
+    "notes": "",
+    "created_at_utc": "2026-09-13T09:03:34.680Z",
+    "split": "val"
+  }
+]

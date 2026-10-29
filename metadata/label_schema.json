@@ -1,0 +1,181 @@
+{
+  "schema_version": "labglass.annotation.label_schema.v2",
+  "config_id": "labglass_2d_labels_v2_rc2_2",
+  "revision": 6,
+  "instance": {
+    "id": 1,
+    "name": "object",
+    "background": 0
+  },
+  "visible_parts": [
+    {
+      "id": 1,
+      "name": "body",
+      "color_bgr": [
+        101,
+        198,
+        47
+      ]
+    },
+    {
+      "id": 2,
+      "name": "rim",
+      "color_bgr": [
+        75,
+        75,
+        255
+      ]
+    },
+    {
+      "id": 3,
+      "name": "inner_surface",
+      "color_bgr": [
+        214,
+        201,
+        50
+      ]
+    },
+    {
+      "id": 4,
+      "name": "base",
+      "color_bgr": [
+        48,
+        194,
+        242
+      ]
+    },
+    {
+      "id": 5,
+      "name": "spout",
+      "color_bgr": [
+        225,
+        82,
+        210
+      ]
+    },
+    {
+      "id": 6,
+      "name": "handle",
+      "color_bgr": [
+        52,
+        138,
+        255
+      ],
+      "partpolicynet_v0_supported": false
+    },
+    {
+      "id": 7,
+      "name": "neck",
+      "color_bgr": [
+        255,
+        120,
+        124
+      ]
+    },
+    {
+      "id": 8,
+      "name": "cap_or_stop",
+      "color_bgr": [
+        66,
+        121,
+        168
+      ]
+    },
+    {
+      "id": 9,
+      "name": "shoulder",
+      "color_bgr": [
+        95,
+        140,
+        217
+      ]
+    }
+  ],
+  "functional_regions": [
+    {
+      "id": 1,
+      "name": "scale_print",
+      "color_bgr": [
+        52,
+        223,
+        244
+      ]
+    },
+    {
+      "id": 2,
+      "name": "logo_or_text",
+      "color_bgr": [
+        255,
+        168,
+        81
+      ]
+    },
+    {
+      "id": 3,
+      "name": "pouring_region",
+      "color_bgr": [
+        122,
+        212,
+        70
+      ]
+    },
+    {
+      "id": 4,
+      "name": "sealing_region",
+      "color_bgr": [
+        36,
+        27,
+        224
+      ]
+    }
+  ],
+  "contact_policy": [
+    {
+      "id": 1,
+      "name": "allowed",
+      "color_bgr": [
+        91,
+        201,
+        25
+      ]
+    },
+    {
+      "id": 2,
+      "name": "discouraged",
+      "color_bgr": [
+        48,
+        194,
+        242
+      ]
+    },
+    {
+      "id": 3,
+      "name": "forbidden",
+      "color_bgr": [
+        52,
+        52,
+        238
+      ]
+    }
+  ],
+  "unknown_inside_instance": 255,
+  "background": 0,
+  "part_collapse_priority_low_to_high": [
+    "body",
+    "base",
+    "shoulder",
+    "neck",
+    "inner_surface",
+    "rim",
+    "spout",
+    "cap_or_stop",
+    "handle"
+  ],
+  "rules": [
+    "实例mask包含透明轮廓内部。",
+    "部位只标当前图像可见证据，允许独立部位mask重叠。",
+    "功能区域与结构部位独立并允许重叠。",
+    "接触策略只在实例内有效，未标区域为255 unknown。",
+    "隐藏面功能语义不得由CASP自动补为allowed。"
+  ]
+}

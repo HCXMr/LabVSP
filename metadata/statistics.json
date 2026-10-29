@@ -1,0 +1,157 @@
+{
+  "checked_images": 356,
+  "checked_instances": 419,
+  "physical_objects": 30,
+  "image_counts": {
+    "train": 195,
+    "multi_test": 5,
+    "val": 81,
+    "test": 75
+  },
+  "instance_counts": {
+    "train": 244,
+    "multi_test": 19,
+    "val": 81,
+    "test": 75
+  },
+  "part_pixel_counts_inside_instances": {
+    "1": 4946406,
+    "2": 474228,
+    "3": 529847,
+    "4": 267517,
+    "5": 54045,
+    "7": 786093,
+    "9": 376659,
+    "8": 491048,
+    "255": 21094
+  },
+  "part_instance_support": {
+    "1": 419,
+    "2": 355,
+    "3": 248,
+    "4": 320,
+    "5": 140,
+    "7": 217,
+    "9": 160,
+    "8": 140,
+    "255": 240
+  },
+  "policy_pixel_counts_inside_instances": {
+    "1": 3483306,
+    "2": 922907,
+    "3": 3522220,
+    "255": 18504
+  },
+  "visible_part_instance_support": {
+    "body": 419,
+    "rim": 355,
+    "inner_surface": 248,
+    "base": 320,
+    "spout": 140,
+    "handle": 0,
+    "neck": 217,
+    "cap_or_stop": 140,
+    "shoulder": 160
+  },
+  "functional_region_instance_support": {
+    "scale_print": 207,
+    "logo_or_text": 288,
+    "pouring_region": 276,
+    "sealing_region": 140
+  },
+  "categories": [
+    {
+      "category_id": 1,
+      "category": "beaker",
+      "name_zh": "烧杯",
+      "physical_objects": 4,
+      "single_images": 49,
+      "multi_instances": 10,
+      "total_instances": 59,
+      "train": 30,
+      "val": 14,
+      "test": 13,
+      "multi_test": 2
+    },
+    {
+      "category_id": 2,
+      "category": "erlenmeyer_flask",
+      "name_zh": "锥形瓶",
+      "physical_objects": 5,
+      "single_images": 65,
+      "multi_instances": 28,
+      "total_instances": 93,
+      "train": 62,
+      "val": 13,
+      "test": 13,
+      "multi_test": 5
+    },
+    {
+      "category_id": 3,
+      "category": "reagent_bottle",
+      "name_zh": "圆形试剂瓶",
+      "physical_objects": 5,
+      "single_images": 61,
+      "multi_instances": 10,
+      "total_instances": 71,
+      "train": 44,
+      "val": 13,
+      "test": 12,
+      "multi_test": 2
+    },
+    {
+      "category_id": 4,
+      "category": "graduated_cylinder",
+      "name_zh": "量筒",
+      "physical_objects": 4,
+      "single_images": 44,
+      "multi_instances": 15,
+      "total_instances": 59,
+      "train": 35,
+      "val": 11,
+      "test": 11,
+      "multi_test": 2
+    },
+    {
+      "category_id": 5,
+      "category": "test_tube",
+      "name_zh": "试管",
+      "physical_objects": 5,
+      "single_images": 39,
+      "multi_instances": 3,
+      "total_instances": 42,
+      "train": 24,
+      "val": 7,
+      "test": 8,
+      "multi_test": 3
+    },
+    {
+      "category_id": 6,
+      "category": "volumetric_flask",
+      "name_zh": "容量瓶",
+      "physical_objects": 3,
+      "single_images": 33,
+      "multi_instances": 15,
+      "total_instances": 48,
+      "train": 24,
+      "val": 11,
+      "test": 11,
+      "multi_test": 2
+    },
+    {
+      "category_id": 7,
+      "category": "plain_mouth_flask",
+      "name_zh": "普口烧瓶",
+      "physical_objects": 4,
+      "single_images": 40,
+      "multi_instances": 7,
+      "total_instances": 47,
+      "train": 25,
+      "val": 12,
+      "test": 7,
+      "multi_test": 3
+    }
+  ],
+  "instance_overlap_pairs": 8,
+  "instance_overlap_images": 7
+}

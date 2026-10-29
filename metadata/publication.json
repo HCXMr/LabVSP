@@ -1,0 +1,41 @@
+{
+  "status": "release",
+  "title": "LabVSP",
+  "full_name": null,
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name_zh": "黄程宣",
+      "family_name": "Huang",
+      "given_name": "Chengxuan",
+      "name_en": "Chengxuan Huang",
+      "role_zh": "周利锋课题组博士研究生",
+      "affiliation_zh": "南方科技大学工学院机械与能源工程系周利锋课题组",
+      "family_name_zh": "黄",
+      "given_name_zh": "程宣"
+    }
+  ],
+  "team": "南方科技大学工学院机械与能源工程系周利锋课题组",
+  "contact": {
+    "type": "GitHub Issues",
+    "url": "https://github.com/HCXMr/LabVSP/issues"
+  },
+  "data_license": "CC-BY-NC-4.0",
+  "data_license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "code_license": "PolyForm-Noncommercial-1.0.0",
+  "code_license_status": "confirmed; applies separately to tools/ and accompanying software examples",
+  "paper_status": "manuscript_in_preparation",
+  "paper_title": null,
+  "paper_url": null,
+  "paper_doi": null,
+  "repository_url": "https://github.com/HCXMr/LabVSP",
+  "dataset_doi": null,
+  "release_url": "https://github.com/HCXMr/LabVSP/releases/tag/v1.0.0",
+  "release_tag": "v1.0.0",
+  "publication_year": 2026,
+  "date_released": "2026-10-29",
+  "metadata_updated": "2026-10-29",
+  "data_content_unchanged_from": "0.1.0-draft",
+  "note_zh": "作者、团队、公开仓库、CC BY-NC 4.0 数据许可及 PolyForm Noncommercial 1.0.0 软件许可已确认。版本下载信息见 distribution.json，线上下载核验以实际检查记录为准。论文和 DOI 待真实信息确认后补充；原数据、标注及划分保持不变。",
+  "code_license_url": "https://polyformproject.org/licenses/noncommercial/1.0.0.txt"
+}
