@@ -1,0 +1,15 @@
+{
+  "schema_version": "labglass.scene.v2",
+  "session_id": "S_BK003_A_001",
+  "scene_id": "scene_000001",
+  "object_id": "BK_003",
+  "category": "beaker",
+  "category_id": 1,
+  "yaw_deg": 0.0,
+  "view_group": "A",
+  "condition_id": "A_standard",
+  "capture_method": "ros2_single_synchronized_rgbd",
+  "created_at_utc": "2026-09-13T11:33:43.328Z",
+  "formal_image_contains_calibration_board": false,
+  "metadata_scope": "capture_time_only; use metadata/manifest.json for current split and annotations"
+}
