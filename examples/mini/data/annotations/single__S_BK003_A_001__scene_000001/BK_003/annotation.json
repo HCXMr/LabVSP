@@ -1,0 +1,19 @@
+{
+  "schema_version": "labglass.annotation.v2",
+  "session_id": "S_BK003_A_001",
+  "scene_id": "scene_000001",
+  "object_id": "BK_003",
+  "category": "beaker",
+  "updated_at_utc": "2026-09-16T03:20:15.568Z",
+  "image_size": {
+    "width": 640,
+    "height": 480
+  },
+  "visible_only": true,
+  "hidden_semantics_completed": false,
+  "policy_unknown_value": 255,
+  "human_direct_evidence": true,
+  "label_schema": "metadata/label_schema.json",
+  "path_resolution": "repository_root",
+  "sample_id": "single__S_BK003_A_001__scene_000001__BK_003"
+}
