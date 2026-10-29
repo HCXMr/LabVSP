@@ -1,0 +1,71 @@
+{
+  "schema_version": "labvsp.manifest.v1",
+  "name": "LabVSP",
+  "version": "1.0.0",
+  "status": "example_only",
+  "created_date": "2026-10-18",
+  "path_base": "repository_root",
+  "image_counts": {
+    "train": 1
+  },
+  "instance_counts": {
+    "train": 1
+  },
+  "images": [
+    {
+      "image_id": "single__S_BK003_A_001__scene_000001",
+      "source_image_key": "single/S_BK003_A_001/scene_000001",
+      "dataset": "single",
+      "split": "train",
+      "session_id": "S_BK003_A_001",
+      "scene_id": "scene_000001",
+      "width": 640,
+      "height": 480,
+      "object_ids": [
+        "BK_003"
+      ],
+      "rgb_path": "data/rgb/single__S_BK003_A_001__scene_000001.png",
+      "depth_path": "data/depth/single__S_BK003_A_001__scene_000001.png",
+      "depth_valid_path": "data/depth_valid/single__S_BK003_A_001__scene_000001.png",
+      "camera_path": "data/camera/single__S_BK003_A_001__scene_000001.json",
+      "scene_path": "data/scenes/single__S_BK003_A_001__scene_000001.json"
+    }
+  ],
+  "records": [
+    {
+      "sample_id": "single__S_BK003_A_001__scene_000001__BK_003",
+      "source_sample_id": "single/S_BK003_A_001/scene_000001/BK_003",
+      "image_id": "single__S_BK003_A_001__scene_000001",
+      "dataset": "single",
+      "split": "train",
+      "object_id": "BK_003",
+      "object_role": "train",
+      "category_id": 1,
+      "category": "beaker",
+      "annotation_dir": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003",
+      "instance_path": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/instance_mask.png",
+      "part_path": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/structural_part_id.png",
+      "policy_path": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/contact_policy_id.png",
+      "confidence_path": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/confidence_f32.npy",
+      "provenance_path": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/provenance_id.png",
+      "visible_parts": {
+        "body": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/visible_parts/body.png",
+        "rim": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/visible_parts/rim.png",
+        "inner_surface": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/visible_parts/inner_surface.png",
+        "base": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/visible_parts/base.png",
+        "spout": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/visible_parts/spout.png",
+        "handle": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/visible_parts/handle.png",
+        "neck": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/visible_parts/neck.png",
+        "cap_or_stop": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/visible_parts/cap_or_stop.png",
+        "shoulder": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/visible_parts/shoulder.png"
+      },
+      "functional_regions": {
+        "scale_print": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/functional_regions/scale_print.png",
+        "logo_or_text": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/functional_regions/logo_or_text.png",
+        "pouring_region": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/functional_regions/pouring_region.png",
+        "sealing_region": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/functional_regions/sealing_region.png"
+      },
+      "annotation_metadata_path": "data/annotations/single__S_BK003_A_001__scene_000001/BK_003/annotation.json"
+    }
+  ]
+}
